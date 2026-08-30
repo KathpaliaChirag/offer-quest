@@ -15,6 +15,7 @@ We are here for the OAs, the coding rounds, the interview stories, and the small
 | Placement prep | [INDEX.md](INDEX.md#placement-prep) | Placement resources and campus-specific guidance |
 | Everything in one place | [INDEX.md](INDEX.md) | The living catalogue for this repository |
 | Want to contribute? | [CONTRIBUTING.md](CONTRIBUTING.md) | The no-stress guide to adding useful material |
+| Want the rules? | [NOTICE.md](NOTICE.md) | Attribution, licensing, and removal guidance |
 
 ## The 15-minute route 🚀
 
@@ -66,6 +67,8 @@ Four files with Windows-incompatible path lengths are parked locally in [`proble
 ## The source promise 🤝
 
 This repository is a signpost as much as it is an archive. Local files should be public and shareable. External material stays linked to its original home when redistribution rights are unclear. If a source asks for removal, we will take it seriously and update the index.
+
+See [NOTICE.md](NOTICE.md) for the full attribution and content policy.
 
 ## Good places to explore 🔎
 
