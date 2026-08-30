@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void fun(vector<string> &picture ,char ch, int i, int j){
+    int m = picture.size();
+    
+    if(i<0 || j<0 || i>=m || j>=picture[i].size())
+        return;
+        
+    if(ch != picture[i][j])
+        return;
+        
+    picture[i][j] = '0';
+    
+    fun(picture, ch, i+1, j);
+    fun(picture, ch, i-1, j);
+    fun(picture, ch, i, j+1);
+    fun(picture, ch, i, j-1);
+    
+}
+
+
+int strokesRequired(vector<string> picture){
+    int count=0;
+    for(int i =0; i<picture.size(); i++){
+        for(int j=0; j<picture[i].size(); j++){
+            if(picture[i][j] != '0'){
+                fun(picture, picture[i][j], i,j);
+                count++;
+            }
+        }
+    }
+    return count;
+}
+
+
+int main(){
+    
+    vector<string> picture = {"abcde","efghi","klmno"};
+    cout<<strokesRequired(picture)<<endl;
+    
+    
+    return 0;
+    
+}
