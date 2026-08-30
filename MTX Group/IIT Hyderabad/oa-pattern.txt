@@ -1,0 +1,4 @@
+One question was based on counting inversion..
+
+1. Given a array of size n indicating speed of n car racing on a track of infinite length.
+We have to count the number of overtake that will happen during the race.

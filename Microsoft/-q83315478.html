@@ -1,0 +1,86 @@
+
+<script type="text/x-mathjax-config">MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  }
+});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+.x {
+  background-color: lightgrey;
+  border: 10px solid green;
+}
+.y {
+  background-color: lightyellow;
+  border: 5px solid black;
+}
+.z {
+  background-color: lightpink;
+  border: 5px solid red;
+}
+.tele {
+  background-color: yellow;
+  border: 5px solid red;
+}
+</style>
+<a href="http://t.me/CHEGGHAC"><div class=tele><center><h3>CLICK HERE TO GET MORE FREE SOLUTIONS</h3></center></div></a>
+<div class="x">
+<div class="ugc-base question-body-text">
+<div class=""><p><strong>Do not copy from others' please. C++ or Python, please.
+Answer swiftly, will upvote. Thanks</strong></p>
+<p><strong><img alt="You are given a tree consisting of N nodes, numbered from 0 to N-1. Each node contains one of the letters a or b. The tre" aria-describedby="hc8" src="https://media.cheggcdn.com/media/a76/a76f6750-8c60-4126-8d19-5f787a833aaf/phpi60tW4" style="height:1124px;width:967px;"/><img alt="3. Given S = abab and A = (-1, 2, 0, 1), your function should return 2. The longest path is: 2 - 1. It is marked in red on" aria-describedby="hc9" src="https://media.cheggcdn.com/media/610/610d0eee-0fd5-4623-8087-71b322e80add/phpQ4FvPz" style="height:463px;width:947px;"/></strong></p>
+</div></div></div></div></div><h1><p><b>
+<mark>:: Solution ::</mark>
+</b></p></h1><div class="y"><div class="y"><div class="answer-given-body ugc-base">
+<p>//CPP solution</p>
+<p>int maxValidAns;<br/>
+void dfs(int curNode, vector&lt;vector&lt;int&gt;&gt; &amp;graph,
+string &amp;s, int dp[])<br/>
+{<br/>
+  <br/>
+    vector&lt;int&gt;
+possiblePathsFromThisNode;     // it will store
+all the Valid paths possible from this node to leaf<br/>
+    dp[curNode] = 1;<br/>
+    for(auto it : graph[curNode])<br/>
+    {<br/>
+      dfs(it, graph, s, dp);<br/>
+      if(s[curNode] != s[it])<br/>
+       
+possiblePathsFromThisNode.push_back(dp[it]);<br/>
+    }</p>
+<p>    int sz =
+possiblePathsFromThisNode.size();<br/>
+    if(sz-1 &gt;= 0)<br/>
+      dp[curNode] +=
+possiblePathsFromThisNode[sz-1];<br/>
+    if(sz-2 &gt;= 0)<br/>
+      dp[curNode] +=
+possiblePathsFromThisNode[sz-2];</p>
+<p>    maxValidAns = max(maxValidAns,
+dp[curNode]);<br/>
+}<br/>
+int solution(string &amp;s, vector&lt;int&gt; &amp;A)<br/>
+{<br/>
+    int n = s.length();<br/>
+    int
+dp[n];             
+// dp[i] will store the maximum valid path that can be obtained
+from the subtree of node i including node i.<br/>
+    vector&lt;vector&lt;int&gt;&gt; graph(n,
+vector&lt;int&gt;()); // creating ajdacency list<br/>
+    maxValidAns = 0;</p>
+<p>    for(int i = 1;i &lt; A.size();i++)<br/>
+    {<br/>
+      graph[A[i]].push_back(i);<br/>
+    }</p>
+<p>    dfs(0, graph, s, dp);    //
+usind depth first search</p>
+<p>    return maxValidAns;<br/>
+}</p>
+</div></div></div></div><div class="z"><h2><p><b>
+Likes: 0</p><p>Dislikes:  0
+</b></p></h2></div>

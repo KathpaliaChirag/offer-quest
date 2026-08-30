@@ -1,0 +1,55 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int solution(vector<int> &A,int r)
+{
+    
+    int n =A.size();
+    
+    if(n==r)
+        return 0;
+        
+    unordered_map<int,int> mp;
+
+    for(int i = r;i<n ;i++)
+        mp[A[i]]++;
+    
+    int mx = mp.size();
+    
+    for( int i =r; i<n; i++)
+    {
+        mp[A[i-r]]++;
+        mp[A[i]]--;
+        
+        if(mp[A[i]]==0)
+            mp.erase(A[i]);
+            
+        if(mp.size()>mx)
+            mx=mp.size();
+    }
+    
+    return mx;
+}
+
+int main()
+{
+   int n;
+   cin>>n;
+   int r;
+   cin>>r;
+   
+   vector<int> A;
+   
+   for(int i = 1;i<=n ; i++)
+   {
+        int t;
+        cin>>t;
+        A.push_back(t);
+      
+   }
+  
+   cout<<solution(A,r);
+   
+   return 0;
+}

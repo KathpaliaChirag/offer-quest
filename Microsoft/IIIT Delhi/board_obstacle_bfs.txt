@@ -1,0 +1,145 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void print(vector<string> &B)
+{
+    cout<<"\n";
+    
+    for( int i = 0; i<B.size(); i++)
+    {
+        for (int j = 0 ; j<B[0].size() ; j++)
+            cout<<B[i][j]<<" ";
+        cout<<"\n";
+    }
+    
+    cout<<"\n";
+}
+
+bool bfs( vector<string> &B,int x,int y,const int &m,const int &n )
+{
+    queue<pair<int,int>> q;
+    q.push({x,y});
+    
+    while (!q.empty()) 
+    {
+        pair<int,int> p = q.front();
+        q.pop();
+        int i = p.first;
+        int j = p.second;
+       
+        if (i < 0 || i >= m || j < 0 || j >= n)
+            continue;
+       
+        if (B[i][j] == '.' || B[i][j]=='A' )
+        {
+            if (i == m-1 && j==n-1)
+            return true;
+       
+            B[i][j] = '0';
+ 
+            for (int k = -1; k <= 1; k += 2) 
+            {
+                q.push({i + k, j});
+                q.push({i, j + k});
+            }
+        }    
+    }
+   
+    return false;
+    
+}
+
+bool solution( vector<string> &B)
+{
+    int m = B.size();
+    int n = B[0].size();
+    
+    int index1=-1;
+    int index2=-1;
+    
+    for( int i = 0; i<m ; i++ )
+    {
+        for( int j =0; j<n ; j++)
+        {
+            switch(B[i][j])
+            {
+                case 'A':
+                    index1=i;
+                    index2=j;
+                    break;
+                case '<':
+                    for( int k = j-1 ; k>=0 ; k-- )
+                    {
+                        if(B[i][k]=='A' || (i==m-1 && k==n-1) )
+                            return false;
+                        if(B[i][k]=='.' || B[i][k]=='0')
+                            B[i][k]='0';
+                        else
+                            break;
+                    }
+                    break;
+                case '>':
+                    for( int k = j+1 ;k<n ; k++ )
+                    {
+                        if( B[i][k]=='A' || (i==m-1 && k==n-1) )
+                            return false;
+                        else if(B[i][k]=='.' || B[i][k]=='0')
+                            B[i][k]='0';
+                        else
+                            break;
+                    }
+                    break;
+                case '^':
+                    for( int k = i-1 ; k>=0 ; k--)
+                    {
+                        if(B[k][j]=='A' || (k==m-1 && j==n-1) )
+                            return false;
+                        else if(B[k][j]=='.' || B[k][j]=='0' )
+                            B[k][j]='0';
+                        else
+                            break;
+                    }
+                    break;
+                case 'v':
+                    for( int k = i+1; k<m  ; k++)
+                    {
+                        if(B[k][j]=='A' || (k==m-1 && j==n-1) )
+                            return false;
+                        else if(B[k][j]=='.' || B[k][j]=='0' )
+                            B[k][j]='0';
+                        else
+                            break;
+                    }
+                    break;
+    
+                default:
+                    break;
+            }
+            
+        }
+    }
+    
+    
+    //print(B);
+    
+    if( index1==-1)
+        return false;
+    
+    return bfs(B,index1,index2,m,n);
+    
+}
+
+int main()
+{
+   int m=4,n=7;
+    
+   
+   vector<string> B{ "X.....>",".....X.",".>..X..","A......"};
+   
+   print(B);
+   
+   cout<<solution(B);
+   
+   return 0;
+}

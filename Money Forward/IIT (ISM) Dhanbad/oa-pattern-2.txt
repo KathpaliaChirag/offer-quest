@@ -1,0 +1,4 @@
+Money forward
+
+1d Othello (upar hai)
+Divide array into 3 consecutive sequence st the sum of each sequence is maximum sum/2

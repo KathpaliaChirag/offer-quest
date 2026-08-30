@@ -1,0 +1,100 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void bfs(int A[],int B[],int n,vector<int> &parent)
+{
+    unordered_map<int,vector<int>> mp;
+    
+    for( int i = 0;i<n ; i++)
+    {
+        mp[A[i]].push_back(B[i]);
+        mp[B[i]].push_back(A[i]);
+    }
+    
+    queue<int> q;
+    q.push(0);
+    
+    int visited[n+1]={0};
+    int count = -1;
+    parent.push_back(-1);
+    visited[0]=1;
+    
+    while(q.size())
+    {
+        int t = q.front();
+        q.pop();
+        count++;
+        
+        for(auto it:mp[t])
+        {
+            if(visited[it]==0)
+            {
+                q.push(it);
+                visited[it]=1;
+                parent.push_back(count);
+            }
+                
+        }
+    }
+}
+
+int solution(int A[],int B[],int n)
+{
+    vector<int> vec(n,1);
+    
+    vector<int> parent;
+    
+    bfs(A,B,n,parent);
+    
+    for(auto it:parent)
+        cout<<it<<" ";
+    
+    cout<<"\n";
+    
+    int i =n;
+    
+    while(i>0)
+    {
+        int t = parent[i];
+        
+        int sum= 0;
+        
+        while(parent[i]==t)
+        {
+            sum+=vec[i];
+            i--;
+        }
+        
+        if( sum<=5 )
+        {
+            vec[t]=vec[t]+sum;
+        }
+        else
+        {
+            if(sum%5==0)
+                vec[t]+=(sum+sum/5);
+            else
+               vec[t]+=(sum + sum/5 );
+        }
+        
+    }
+    
+    return vec[0];
+    
+}
+
+
+int main()
+{
+    /*int A[]={1,1,1,9,9,9,9,7,8};
+    int B[]={2,0,3,1,6,5,4,0,0};*/
+    
+    int A[]={0,1,1};
+    int B[]={1,2,3};
+    
+    int n = 3;
+     
+    cout<<solution(A,B,n);
+    return 0;
+}

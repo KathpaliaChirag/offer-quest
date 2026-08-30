@@ -1,0 +1,3 @@
+Morgan Stanley Coding questions IITK:
+1) https://www.geeksforgeeks.org/find-element-given-index-given-range-reversals/
+2) https://leetcode.com/problems/number-of-islands/

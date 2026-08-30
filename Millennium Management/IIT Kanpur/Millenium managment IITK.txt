@@ -1,0 +1,3 @@
+Millennium Management 2 coding questions at IITK:
+1) https://www.hackerrank.com/challenges/stockmax/problem
+2) https://www.geeksforgeeks.org/maximum-of-minimum-difference-of-all-pairs-from-subsequences-of-given-size/

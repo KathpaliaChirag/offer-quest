@@ -1,0 +1,22 @@
+One question was based on counting inversion..
+
+1. Given a array of size n indicating speed of n car racing on a track of infinite length.
+We have to count the number of overtake that will happen during the race.
+
+Total question 74 
+3 coding and 71 mcq
+
+
+60 MCQs - 100 marks.
+3 Coding questions - 200 marks (100 + 50 + 50).
+Platform : Hacker earth (The coding editor is quite shit tbh)
+Anecdotal evidence, but every hacker earth test I've given is proctored, this included.
+
+Coding questions:
+1. Given a connected undirected graph, each node/vertex has some value. Choose a node to remove from the graph such that the values of the top 2 remaining components are maximised. If removing a node leaves you with just one component no matter what you remove, return the max possible value for that one component. V,E <= 10^5.
+
+2. Given an array and some value X, return the number of pairs such that i < j, a[i] = a[j] and (i * j) % X == 0. Array size <= 10^5.
+
+3. Given some numbers, represented as strings, you have to perform 2 types of queries. Let the array of numbers be A. The first type of query is, for some numbers A[l, r] replace the digits [s, e] with their 9's complement. The second type of query is, for some numbers A[l, r] get the sum of their [s, e] digits. #numbers, #digits in a number <= 10^3; #queries <= 10^5.
+
+That's my version of the test. Might update it as more people I know share their set of questions. Anyway, anybody else from IITH, feel free to add more questions.

@@ -1,0 +1,1 @@
+1. Longest Alternating Subsequence question. Alternating --> Alternates between positive and negative elements.

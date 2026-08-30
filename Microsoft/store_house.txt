@@ -1,0 +1,133 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+/*void print(vector<vector<int>> &B)
+{
+    cout<<"\n";
+    
+    for( int i = 0; i<B.size(); i++)
+    {
+        for (int j = 0 ; j<B[0].size() ; j++)
+            cout<<B[i][j]<<" ";
+        cout<<"\n";
+    }
+    
+    cout<<"\n";
+}*/
+
+int solution( vector<vector<int>> &A, int k)
+{
+    int m = A.size();
+    int n = A[0].size();
+    
+    //print(A);
+    
+    vector<pair<int,int>> houses;
+    
+    for( int i = 0; i<m ; i++ )
+    {
+        for( int j =0; j<n ; j++)
+        {
+            if(A[i][j]==1)
+                houses.push_back({i,j});
+        }
+    }
+    
+    if(houses.size()==0)
+        return m*n;
+    if(houses.size()==m*n)
+        return 0;
+    
+    for(int a =0; a<houses.size();a++)
+    {
+        pair<int,int> temp=houses[a];
+        queue<pair<int,int>> q;
+        q.push(houses[a]);
+        
+        while (!q.empty()) 
+        {
+            pair<int,int> p = q.front();
+            q.pop();
+            
+            int i = p.first;
+            int j = p.second;
+       
+            if (i < 0 || i >= m || j < 0 || j >= n)
+                continue;
+       
+            if ( (A[i][j] == 1 && i!=temp.first && j!=temp.second) || A[i][j]==-1)
+                continue;
+
+            if(A[i][j]==0)
+                A[i][j] = -1;
+ 
+            for (int x = -1; x <= 1; x += 2) 
+            {
+                int s=1;
+                int t =1;
+                
+                for( int b=0;b<houses.size();b++)
+                {
+                    if( abs(i+x-houses[b].first) + abs(j-houses[b].second) > k)
+                        s = 0;
+                    if( abs(i-houses[b].first) + abs(j+x-houses[b].second) > k)
+                        t =0;
+                    
+                    if(s==0 && t==0)
+                        break;
+                        
+                }
+                if(s)
+                    q.push({i + x, j});
+                if(t)
+                    q.push({i, j + x});
+                
+            }
+        }
+    
+        
+    }
+    
+    //print(A);
+    
+    int count = 0;
+    
+    for( int i = 0; i<m ; i++ )
+    {
+        for( int j =0; j<n ; j++)
+        {
+            if(A[i][j]==-1)
+                count++;
+        }
+    }
+    
+    return count;
+    
+}
+
+int main()
+{
+   int m,n;
+   cin>>m>>n;
+   int k;
+   cin>>k;
+   
+   vector<vector<int>> A;
+   
+   for(int i = 1;i<=m ; i++)
+   {
+       vector<int> temp;
+       int t;
+       for( int j = 1; j<=n; j++)
+       {
+           cin>>t;
+           temp.push_back(t);
+       }
+       A.push_back(temp);
+   }
+  
+   cout<<solution(A,k);
+   
+   return 0;
+}

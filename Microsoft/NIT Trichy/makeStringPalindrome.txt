@@ -1,0 +1,35 @@
+//MAKE STRING PALINDROME
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int solution(string s){
+    
+    int n = s.size();
+    
+    unordered_map<char,int> map;
+    
+    for(int i=0; i<n; i++)
+        map[s[i]]++;
+        
+    int count = 0;
+    
+    for(auto x : map){
+        if(x.second%2 == 1)
+            count++;
+    }
+    
+    if(count > 1) return count-1;
+    
+    return 0;
+    
+}
+
+int main()
+{
+   string s;
+   cin>>s;
+   cout<<solution(s);
+   return 0;
+}
