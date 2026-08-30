@@ -59,6 +59,7 @@ These public projects helped shape the organisation ideas here. They are externa
 - [placement-resources](https://github.com/mrsac7/placement-resources)
 - [OA-Questions](https://github.com/rameshgitter/OA-Questions)
 - [OA and Interviews](https://github.com/Leader-board/OA-and-Interviews)
+- [Additional repos and coverage gaps](<Additional Resources/README.md>) - useful public company folders and placement guides we do not duplicate locally
 
 ## Contributing 🫡
 
@@ -77,6 +78,10 @@ Read the full guide in [CONTRIBUTING.md](CONTRIBUTING.md). One good contribution
 Big thanks to every student, mentor, community, and original creator who shares knowledge openly. This place works because people choose to make the next person's path a little easier.
 
 **Community contributors:** the first archive has been organised into the OA and interview sections. Your useful additions and original sources will be credited here and in the relevant index entries.
+
+**Archive sorting:** special thanks to [Hobbbit31](https://github.com/Hobbbit31) for sorting the original material out of its earlier messy shape and making the collection usable.
+
+**Additional resource maintainers:** thanks to [rameshgitter/OA-Questions](https://github.com/rameshgitter/OA-Questions), [themysterysolver/PLACEMENT-QUESTIONS](https://github.com/themysterysolver/PLACEMENT-QUESTIONS), [mrsac7/placement-resources](https://github.com/mrsac7/placement-resources), [skjha1/Campus-Placement](https://github.com/skjha1/Campus-Placement), [bhardwaj75/Campus-Placement-Preparation](https://github.com/bhardwaj75/Campus-Placement-Preparation), [Samuela31's CS resources](https://github.com/Samuela31/Campus-Placement-and-Miscellaneous-CS-Resources-and-Questions), and [Amaan9136's TCS practice](https://github.com/Amaan9136/tcs-solved-problems). Their work is linked as an additional resource, with company coverage gaps called out instead of being copied without permission.
 
 **Repository maintenance:** maintained with help from **Codex, an AI coding agent**. The agent helps keep the index tidy, sort incoming material into the right sections, and maintain the repository structure. Humans remain responsible for what gets shared and for checking sources. 🤖
 

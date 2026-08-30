@@ -21,9 +21,10 @@ Thank you for helping somebody else walk into an OA or interview a little more p
 1. Place company-specific material in its matching company folder at the repository root.
 2. Create a company folder when the resource is company-specific and one does not exist.
 3. Put general interview or placement material in `Other Resources`.
-4. Include a short note with the source, date if known, and what the material covers.
-5. Add it to [INDEX.md](INDEX.md).
-6. Add your name or handle if you would like credit.
+4. If a useful public repository already hosts the material, prefer linking it in [`Additional Resources`](<Additional Resources/README.md>) instead of copying files with unclear redistribution rights.
+5. Include a short note with the source, date if known, and what the material covers.
+6. Add it to [INDEX.md](INDEX.md).
+7. Add your name or handle if you would like credit.
 
 ## Tiny quality check
 

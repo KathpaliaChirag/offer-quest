@@ -20,7 +20,13 @@ Browse the company folders directly from the repository root. The archive includ
 
 | Topic | Resource | Focus | Source | Added by |
 | --- | --- | --- | --- | --- |
-| _No entries yet_ | | | | |
+| Curated external prep | [Additional repos and resources](<Additional Resources/README.md>) | Company gaps, aptitude, CS fundamentals, coding solutions, and TCS practice | GitHub topic curation | Offer Quest maintainers |
+
+The additional page links useful public company coverage that is not currently duplicated here, including AthenaHealth, Citi India, IDFC, NCR Voyix, Verizon, Versa Network, WEX FinTech, CodeNation, LambdaTest, MindTickle, Observe.ai, and Zeta.
+
+## Additional repositories and resources
+
+The [additional resources page](<Additional Resources/README.md>) keeps the original links and credits visible. It includes the public `Placement_FAQs_2025.pdf` link from `rameshgitter/OA-Questions`, plus curated placement guides and company-wise question repositories.
 
 ## How to add an entry
 
