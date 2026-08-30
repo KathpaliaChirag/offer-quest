@@ -1,7 +1,6 @@
-# Operating system files
-.DS_Store
-Thumbs.db
+# Temporary browser downloads are not repository material.
+*.crdownload
 
-# Editor settings
-.vscode/
-.idea/
+# Payloads that Git cannot index yet. See the tracked recovery map.
+problem files/*
+!problem files/RECOVERY-MAP.md

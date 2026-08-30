@@ -1,65 +1,86 @@
 # Offer Quest ✨
 
-> Placement prep, but we leave the ladder down for the next person. 🤝
+> Your friendly survival kit for online assessments, placements, and interviews. No gatekeeping. Just good prep and better odds. 🤝
 
-Welcome to **Offer Quest** - a student-built corner of the internet for placement and interview prep. The mission is simple: fewer "bro where did you get this?" messages at 2 AM, more people walking into interviews feeling ready. 💻
+**Offer Quest** is a student-first collection of public, shareable prep material for the part of placement season where an email says "online assessment" and your heart briefly exits the chat. 💻
 
-Whether you are chasing your first offer, your dream company, or just some peace before the next OA, you are welcome here. Take what helps. Add what you can. We are rooting for you. 🌱
+We are here for the OAs, the coding rounds, the interview stories, and the small wins that eventually become an offer letter. Take what helps. Add what you can. Leave the ladder down. 🌱
 
-## The loot table 🎒
+## Start here 🗺️
 
-This repo is brand new, so right now it has the energy of a freshly opened Notion page. Empty? Yes. Full of potential? Also yes.
-
-| What | Status | The vision |
+| Looking for | Go to | What you will find |
 | --- | --- | --- |
-| Company-wise questions | Cooking 🍳 | Previous-year placement and interview questions, grouped by company |
-| Prep resources | Loading... ⏳ | Useful public links, notes, and practice material |
-| Contribution guide | On the way 🛠️ | A clean, easy way to add useful things |
-| Community credits | Forever open 🫶 | A shoutout wall for people whose work helps others |
+| Online assessments | [company folders](INDEX.md#online-assessments) | Company-wise OA questions, patterns, and practice pointers at the repo root |
+| Interview prep | [Other Resources](<Other Resources/README.md>) | General interview and preparation material |
+| Placement prep | [INDEX.md](INDEX.md#placement-prep) | Placement resources and campus-specific guidance |
+| Everything in one place | [INDEX.md](INDEX.md) | The living catalogue for this repository |
+| Want to contribute? | [CONTRIBUTING.md](CONTRIBUTING.md) | The no-stress guide to adding useful material |
 
-## How this place works 🧭
+## The OA survival manual ⏱️
 
-Resources will be organised by company whenever possible, so you can lock in on the roles and places you are actually aiming for. No gatekeeping. No jargon olympics. Just students helping students get a little closer to that "Congratulations!" email.
+An OA is not a morality test. It is usually a timed screening round with coding problems, MCQs, debugging, or work-style questions. It can be tough, random, and occasionally written like the problem setter had a personal feud with readable English.
 
-### The unofficial workflow
+Here is the low-drama game plan:
+
+1. Read every question once before committing to one.
+2. Lock the easy points first. Partial test cases are still points.
+3. Check constraints before your brain opens the brute-force tab.
+4. Test edge cases: empty input, one item, duplicates, huge values, and the case you swear "will never happen."
+5. Save a few minutes to reread input/output. The hidden test cases are not villains, but they do enjoy plot twists.
 
 ```text
-see a useful resource -> share it here -> help someone else survive placement season
+OA timer: 89:59
+brain: I have never seen an array before
+brain after submit: wait... that was just two pointers
 ```
 
-That is the whole plot. Beautiful cinema. 🎬
+You are not alone. Reddit has enough OA panic threads to confirm that the timer can make even familiar questions feel brand new. Practice under a timer sometimes, then review calmly afterwards. That is where the learning actually sticks. 🫡
 
-## Tiny FAQ, huge vibes 💬
+## What is being built here 📦
 
-**Why is it empty?**
+This is now a real library, not just a pretty empty shelf. The first community archive is sorted and ready to explore.
 
-Every legendary repo starts with one file and unreasonable optimism. You are looking at the origin story.
+| Section | Status | The vision |
+| --- | --- | --- |
+| Company-wise OAs | 12,208 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
+| Coding round prep | In the company folders 🍳 | DSA, debugging, MCQs, and platform-specific practice |
+| Interviews | 146 extra resources 🎤 | Interview-prep material in [Other Resources](<Other Resources/README.md>) |
+| Placement resources | Ready for additions 🧭 | Public material for campus-placement prep |
+| Credits and sources | Forever open 🫶 | Proper credit for people who made this useful |
 
-**Can I add something?**
+Four files with Windows-incompatible path lengths are parked locally in [`problem files`](problem%20files/RECOVERY-MAP.md). Their exact original paths and replacement steps are recorded there; the files were not deleted or pushed.
 
-Please do. A good question set or public resource can save someone hours of chaos-scrolling.
+## Good places to explore 🔎
 
-**Is this only for cracked people?**
+These public projects helped shape the organisation ideas here. They are external resources, not material copied into Offer Quest:
 
-Absolutely not. This is for beginners, repeat applicants, late starters, early birds, and anyone whose browser currently has 47 prep tabs open. 😭
+- [GitHub's online-assessments topic](https://github.com/topics/online-assessments)
+- [Tech OA Interview Questions](https://github.com/perixtar/Tech-OA-Interview-Questions)
+- [placement-resources](https://github.com/mrsac7/placement-resources)
+- [OA-Questions](https://github.com/rameshgitter/OA-Questions)
+- [OA and Interviews](https://github.com/Leader-board/OA-and-Interviews)
 
 ## Contributing 🫡
 
-Got a question set, useful public link, or resource that helped you? Drop it in and help the next person out.
+Found a useful public question set, OA pattern, interview experience, or placement resource? Please help grow the quest.
 
-- Keep material public and okay to share.
-- Organise it by company when possible.
-- Mention the original source whenever you can.
-- Keep it helpful, clear, and kind.
-- No shady leaks, paid content reposts, or anything that puts someone else's work at risk.
+- Add it to the closest matching company folder at the repo root and update [INDEX.md](INDEX.md).
+- Organise by company when possible.
+- Include the original public source and credit the creator whenever you can.
+- Keep write-ups useful and factual. Share the pattern, not private or confidential test content.
+- No paid-content reposts, leaks, answer-bot tools, or anything that breaks an assessment's rules.
 
-Small contribution, real impact. Main-character behaviour, honestly. ✨
+Read the full guide in [CONTRIBUTING.md](CONTRIBUTING.md). One good contribution can save somebody a whole evening of chaos-scrolling. Main-character behaviour, honestly. ✨
 
 ## Credits and thank yous 💌
 
-Huge thanks to every student, community, mentor, and original creator who shares knowledge openly. Offer Quest exists because people choose to leave the ladder down for the next person.
+Big thanks to every student, mentor, community, and original creator who shares knowledge openly. This place works because people choose to make the next person's path a little easier.
 
-**Valuable contributions will be credited here** as this project grows. If your name or source is missing, or if you would like something corrected or removed, open an issue or contact the maintainer. We will make it right with care.
+**Community contributors:** the first archive has been organised into the OA and interview sections. Your useful additions and original sources will be credited here and in the relevant index entries.
+
+**Repository maintenance:** maintained with help from **Codex, an AI coding agent**. The agent helps keep the index tidy, sort incoming material into the right sections, and maintain the repository structure. Humans remain responsible for what gets shared and for checking sources. 🤖
+
+If your name or source is missing, or you would like material corrected or removed, open an issue or contact the maintainer. We will make it right with care.
 
 ---
 
