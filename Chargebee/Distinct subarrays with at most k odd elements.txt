@@ -1,0 +1,81 @@
+/*PROBLEM LINK: https: https://www.careercup.com/question?id=5676522837377024
+Example 1:
+
+Input: nums = [3, 2, 3, 4], k = 1
+Output: 7 
+Explanation: [3], [2], [4], [3, 2], [2, 3], [3, 4], [2, 3, 4]
+Note we did not count [3, 2, 3] since it has more than k odd elements.
+*/
+
+
+
+
+
+/* SOLUTION : JAVA
+MY finding so far;
+we can use sliding window technique, such that we start counting all sub array of len = 1 to n such that each sub array are different and have at most k odd elements
+
+Here is the code, that i've written for this approach O(n^2)
+*/
+
+import java.io.*;
+import java.util.*;  
+
+class GFG {
+    
+    public static int subArraysBrute(int arr[], int k) {
+
+        int count = 0;
+        Set<Integer> set = new HashSet<>();
+
+        //Count single length
+        for (int i = 0; i < arr.length; i++) {
+            count += set.contains(arr[i]) ? 0 : 1;
+            set.add(arr[i]);
+        }
+
+        int len = 2;
+        int odd;
+
+        Set<List<Integer>> setArray = new HashSet<>();
+        while (len < arr.length) {
+
+            setArray.clear();
+            for (int i = 0; i < arr.length - len + 1; i++) {
+                int j = i + len - 1;
+                odd = 0;
+                List<Integer> ar = new ArrayList<>();
+                for (int x = i; x <= j; x++) {
+                    if (arr[x] % 2 != 0)
+                        odd++;
+                    ar.add(arr[x]);
+                }
+
+                if (!setArray.contains(ar)) {
+                    if (odd <= k) {
+                        count++;
+                    }
+                }
+
+                setArray.add(ar);
+            }
+            len++;
+
+        }
+        return count;
+
+    }
+ 
+
+	public static void main (String[] args) {
+    	Scanner sc=new Scanner(System.in);  
+    	int n= sc.nextInt();
+    	int k= sc.nextInt();  
+    	int[] arr = new int[n];
+    
+    	for(int i=0; i<n; i++){
+    	    arr[i] = sc.nextInt();
+    	}
+		System.out.println(subArraysBrute(arr, k));
+	}
+}

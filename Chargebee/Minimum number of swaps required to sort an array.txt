@@ -1,0 +1,84 @@
+/*PROBLEM LINK: https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
+
+Minimum number of swaps required to sort an array
+Difficulty Level : Hard
+Last Updated : 24 Jun, 2021
+Given an array of n distinct elements, find the minimum number of swaps required to sort the array.
+
+Examples: 
+
+Input: {4, 3, 2, 1}
+Output: 2
+Explanation: Swap index 0 with 3 and 1 with 2 to 
+              form the sorted array {1, 2, 3, 4}.
+
+Input: {1, 5, 4, 3, 2}
+Output: 2
+
+
+
+
+
+// SOLUTION : c++
+//time complexity O(NlogN)
+//space complecity O(N)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int minSwaps(int a[], int n)
+{
+	pair<int, int> aPos[n];
+	for (int i = 0; i < n; i++)
+	{
+		aPos[i].first = a[i];
+		aPos[i].second = i;
+	}
+
+	sort(aPos, aPos + n);
+
+	vector<bool> visited(n, false);
+
+	int ans = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if (visited[i] || aPos[i].second == i)
+			continue;
+      
+		int cyc_size = 0;
+		int j = i;
+		while (!visited[j])
+		{
+			visited[j] = 1;
+			j = aPos[j].second;
+			cyc_size++;
+		}
+
+		ans += (cyc_size - 1);
+	}
+
+	return ans;
+}
+
+int minSwapToSameArr(int x[], int y[], int n)
+{
+	map<int, int> Map;
+	for (int i = 0; i < n; i++)
+		Map[y[i]] = i;
+
+	for (int i = 0; i < n; i++)
+		y[i] = Map[x[i]];
+  
+	return minSwaps(y, n);
+}
+
+
+int main()
+{
+	int a[] = {3, 6, 4, 8};
+	int b[] = {4, 6, 8, 3};
+
+	int n = sizeof(a) / sizeof(int);
+	cout << minSwapToSameArr(a, b, n);
+	return 0;
+}
