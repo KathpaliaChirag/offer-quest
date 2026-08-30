@@ -1,0 +1,1 @@
+Like diagonal sum of a matrix..

@@ -1,0 +1,4 @@
+Societe General (IIT BHU) :- 10 Aptitude questions(12 minutes)
+4 English questions (4 minutes)
+15 CS mcq(SDLC, OS, DBMS, dsa) (20 minutes)
+3 coding questions (53 mins)
