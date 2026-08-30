@@ -6,7 +6,7 @@ This is the living catalogue for Offer Quest. Update it whenever you add a resou
 
 | Collection | Location | What is inside | Source status |
 | --- | --- | --- | --- |
-| Company-wise OA archive | Repository root | 12,208 files across 198 company and topic folders | Imported from the community archive on 31 August 2026. Four path-problem files are parked locally. Individual source details were not supplied. |
+| Company-wise OA archive | Repository root | 13,886 files across 198 company and topic folders | Community archive plus the latest sorted incoming drop. Oversized/noisy bundles and four path-problem files are parked locally. |
 
 Browse the company folders directly from the repository root. The archive includes companies such as Amazon, Google, Microsoft, Oracle, Qualcomm, Razorpay, Uber, Visa, Walmart, Zscaler, and many more.
 

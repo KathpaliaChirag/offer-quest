@@ -56,13 +56,13 @@ This is now a real library, not just a pretty empty shelf. The first community a
 
 | Section | Status | The vision |
 | --- | --- | --- |
-| Company-wise OAs | 12,208 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
+| Company-wise OAs | 13,886 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
 | Coding round prep | In the company folders 🍳 | DSA, debugging, MCQs, and platform-specific practice |
 | Interviews | 146 extra resources 🎤 | Interview-prep material in [Other Resources](<Other Resources/README.md>) |
 | Placement resources | Ready for additions 🧭 | Public material for campus-placement prep |
 | Credits and sources | Forever open 🫶 | Proper credit for people who made this useful |
 
-Four files with Windows-incompatible path lengths are parked locally in [`problem files`](problem%20files/RECOVERY-MAP.md). Their exact original paths and replacement steps are recorded there; the files were not deleted or pushed.
+Incoming drops are sorted into the matching company folders, with duplicate filenames getting `(2)`, `(3)`, and so on. Oversized or noisy bundles remain safely parked in [`problem files`](problem%20files/RECOVERY-MAP.md).
 
 ## The source promise 🤝
 
