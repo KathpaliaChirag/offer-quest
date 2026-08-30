@@ -56,7 +56,7 @@ This is now a real library, not just a pretty empty shelf. The first community a
 
 | Section | Status | The vision |
 | --- | --- | --- |
-| Company-wise OAs | 13,886 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
+| Company-wise OAs | 13,890 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
 | Coding round prep | In the company folders 🍳 | DSA, debugging, MCQs, and platform-specific practice |
 | Interviews | 146 extra resources 🎤 | Interview-prep material in [Other Resources](<Other Resources/README.md>) |
 | Placement resources | Ready for additions 🧭 | Public material for campus-placement prep |
