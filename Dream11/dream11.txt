@@ -1,0 +1,11 @@
+Q1. There are n students from 1 to n, we are given a queryType array having query of two types “Friends” and “Query”. Friends query with parameter s1 and s2 means s1 is a friend of s2 and vice versa. Query with parameters s1 and s2 should return sum of friends of s1 and s2.
+
+Q2. Find the ends of a diameter of a graph. Return a Boolean array where arr[i]=1 if I is the end of atleast one diameter.
+
+Q3. We need to delete 1 to 2^n elements. We are given a list of special numbers.
+We can delete these numbers in 2 ways. Given p and q.
+Case 1: If s is the number of special numbers in the range, the cost to delete those is l*s*p.
+L is the length of array. 
+If there is no special number, cost to delete is constant q.
+Case 2: We can divide the array into half if the size is divisible by 2, and the cost to delete this is the sum of cost of deletion of two halves.
+Return the minimum cost to delete all elements.
