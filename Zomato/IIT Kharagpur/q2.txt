@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/count-ways-to-partition-a-binary-string-such-that-each-substring-contains-exactly-two-0s/
