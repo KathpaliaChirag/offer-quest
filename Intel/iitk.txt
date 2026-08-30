@@ -1,0 +1,6 @@
+Intel
+Same pattern
+
+1st - easy-medium.
+2nd - medium-hard.
+Both coding ques are new. Not repeated from any iit/nit.

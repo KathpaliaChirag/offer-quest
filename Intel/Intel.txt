@@ -1,0 +1,15 @@
+Linux, VLSI, MCQ
+Aptitude
+And 2 coding questions
+
+------------------------------------------
+
+Iitd 
+One based on prime numbers
+Other spiral matrix modification
+
+----------------------------------------
+
+IITR
+One question is to pick Max and min element from each row of Matrix
+Othe one is of some pattern printing
