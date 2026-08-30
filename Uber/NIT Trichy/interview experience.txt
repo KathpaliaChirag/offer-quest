@@ -1,0 +1,81 @@
+[8:58 pm, 04/09/2021] rohit😇: Uber
+Round 1 (45 mins)
+1. Tell me about yourself
+2. Stock span problem
+3. Time complexity for inserting any element in map
+4. Any questions for me
+[8:58 pm, 04/09/2021] rohit😇: Uber Interview Experience
+
+Round 1
+
+1. Tell me about yourself(1-2 min)
+
+2. Discussion on one of the two projects in Depth(Asked 3-4 questions)
+
+3.Coding Question :Given an integer array which represents the heights of N buildings, the task is to delete N-2 buildings such that the water trapped between the remaining two building is maximum.
+
+
+Input: arr[] = {1 , 2 ,4}
+
+Output:1
+
+We have to calculate the maximum water that can be stored between 2 buildings.
+
+ Water b/w height 1 and height 3=0
+
+Water b/w height 1 and 4=1
+Water b/w height 3 and 4 =0
+Hence max =1
+
+5. Asked, if I have any questions to ask from him.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[8:58 pm, 04/09/2021] rohit😇: Uber Interview Experience
+Round 1
+
+1. Tell me about yourself (2-3 Minutes)
+2. Discussion on projects (5-7 Minutes) in depth on django
+3. Coding question - A 2d grid is given of size m * n. Player is initially positioned on top left cell and has to reach to bottom right cell. Health of player gets decreased or increased on the basis of value of cell. Player initially has health point k, if players health point drops to 0 or less than zero then player dies immediately. Find out if the player can reach to bottom right cell or not.
+
+Round 2
+
+1. Introduce yourself
+2. Maximum sum of k elements from array A. You can choose the element either from start or end.
+3. Variation of second problem. One array A,integer k and weight array was given and I had to find the maximum sum of k elements we can choose an element either from start or end but the condition was that sum will be A[i] * weight[i] for an index i and the order of choosing weight array element can be changed in order to find maximum sum. DP Solution....
+[8:58 pm, 04/09/2021] rohit😇: Uber
+Round 1 (45 mins)
+1. Tell me about yourself
+2. Stock span problem
+3. Time complexity for inserting any element in map
+4. Any questions for me
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+Uber
+Round 1 (45 min)
+1. Brief Introduction 
+2. Stock span problem 
+3. Any questions for me
+
+Round 2 (45 min)
+1. Brief Introduction 
+2. Given an undirected graph and with source and destination you need to print the minimum cost path as each edge has cost 1 unit.
+Variation is your friend is at edge and you need to pick him but with minimum cost path starting from source and end at destination.
+
+Sample
+Given vertex=4 source=1 destination =4
+                      1
+                   /
+                 2--|
+                /    |
+               3    |
+              /      |
+            4-------|
+edge(1,2) (2,3) (2,4) (3,4)
+If friend is on edge (1,2) path will be 1->2->4
+If friend is on edge (2,3) path will be 1->2->3->4
+If friend is on edge (3,4) path will be 1->2->3->4
+
+////////////////////////////////////////////////////////////////////////////////////////////

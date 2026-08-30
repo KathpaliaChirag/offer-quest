@@ -1,0 +1,192 @@
+
+<script type="text/x-mathjax-config">MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  }
+});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+.x {
+  background-color: lightgrey;
+  border: 10px solid green;
+}
+.y {
+  background-color: lightyellow;
+  border: 5px solid black;
+}
+.z {
+  background-color: lightpink;
+  border: 5px solid red;
+}
+.tele {
+  background-color: yellow;
+  border: 5px solid red;
+}
+</style>
+<a href="http://t.me/CHEGGHAC"><div class=tele><center><h3>CLICK HERE TO GET MORE FREE SOLUTIONS</h3></center></div></a>
+<div class="x">
+<div class="ugc-base question-body-text">
+<div class=""><p>A group is using a progarm to determine possible diverse
+deputations of 3 members for an upcoming conference. There are 'm'
+men and 'w' women who are eligible. A deputation is diverse only if
+it contains at least one man and at least one woman. Two
+deputations are considered distinct if one has a member that the
+other doesn't. Given a number of men and women, determine the
+number of distince ways to select a diverse deputation of 3
+people.</p>
+<p>EXAMPLE:</p>
+<p>m = 1</p>
+<p>w= 3</p>
+<p>There is m=1 man available and w=3 women. Label them m1, w1, w2,
+w3 - There are 3 possible ways to form a diverse deputation: (m1,
+w1, w2), (m1, w1, w3), and (m1, w2, w3). The only other possible
+permutation is (w1, w2, w3) which doesn't include a man, so it is
+invalid.</p>
+<p>use the function:</p>
+<p>diverseDeputation(m, w)</p>
+<p>int m = # of men</p>
+<p>int w = # of women</p>
+</div>
+</div></div></div></div></div></div><h1><p><b>
+<mark>:: Solution ::</mark>
+</b></p></h1><div class="y"><div class="y"><div class="answer-given-body ugc-base">
+<p><br/>
+#include&lt;iostream&gt;<br/>
+using namespace std;</p>
+<p>int m, w, i, j, k, l,count=0;</p>
+<p>int<br/>
+diverseDeputation (int m, int w) //function definition<br/>
+{<br/>
+  <br/>
+for (i = 0; i &lt;= 1; i++) //the maximum no. of men or women is 2
+so limit is set to i&lt;=1(count is 2)<br/>
+  <br/>
+{<br/>
+  <br/>
+<br/>
+if (i == 0) //i=0 means deputations with men is 1 and women is
+2<br/>
+  <br/>
+   {<br/>
+  <br/>
+<br/>
+for (j = 1; j &lt;= m; j++)//this loop is used to increase the
+value of m index<br/>
+  <br/>
+   {<br/>
+  <br/>
+<br/>
+for (k = 1; k &lt; w; k++)//this loop is to increase the value of w
+index<br/>
+      <br/>
+       {<br/>
+      <br/>
+<br/>
+<br/>
+for (l = k + 1; l &lt; w; l++) //value of l is set to k to avoid
+repetition of same deputations with different
+order(m1w2w3,m1w3w2)<br/>
+      <br/>
+       {<br/>
+      <br/>
+<br/>
+if (l != k) // this condition checked so that repetition of
+variables like w2,w2 can be avoided<br/>
+           {<br/>
+          <br/>
+cout &lt;&lt; "(m" &lt;&lt; j &lt;&lt; ",w" &lt;&lt; k &lt;&lt;
+",w" &lt;&lt;<br/>
+l &lt;&lt;<br/>
+           ")";<br/>
+           count++;//count
+variable is used to get the count of deputations<br/>
+          <br/>
+}<br/>
+      <br/>
+}<br/>
+      <br/>
+<br/>
+}<br/>
+  <br/>
+<br/>
+}<br/>
+  <br/>
+<br/>
+}<br/>
+  <br/>
+<br/>
+else<br/>
+  <br/>
+   {<br/>
+  <br/>
+<br/>
+for (j = 1; j &lt; m; j++)<br/>
+  <br/>
+   {<br/>
+  <br/>
+<br/>
+for (k = j + 1; k &lt;= m; k++)<br/>
+      <br/>
+       {<br/>
+      <br/>
+<br/>
+<br/>
+for (l = 2; l &lt; w; l++)<br/>
+      <br/>
+       {<br/>
+      <br/>
+<br/>
+if (l != k)<br/>
+           {<br/>
+          <br/>
+cout &lt;&lt; "(m" &lt;&lt; j &lt;&lt; ",m" &lt;&lt; k &lt;&lt;
+",w" &lt;&lt;<br/>
+l &lt;&lt;<br/>
+           ")";<br/>
+           count++;<br/>
+          <br/>
+}<br/>
+      <br/>
+}<br/>
+      <br/>
+<br/>
+}<br/>
+  <br/>
+<br/>
+}<br/>
+  <br/>
+<br/>
+}<br/>
+  <br/>
+<br/>
+}<br/>
+return count; // returns the value of count</p>
+<p>}</p>
+<p><br/>
+int<br/>
+main ()<br/>
+{<br/>
+  <br/>
+int result;<br/>
+<br/>
+cout &lt;&lt; "enter the number of men and women";<br/>
+  <br/>
+cin &gt;&gt; m &gt;&gt; w;<br/>
+  <br/>
+result=diverseDeputation (m, w); // function call<br/>
+cout&lt;&lt;"\nThe number of diverse deputations
+are\t"&lt;&lt;result;<br/>
+  <br/>
+<br/>
+return 0;</p>
+<p><br/>
+}</p>
+<p><br/>
+<br/>
+<br/></p>
+</div></div></div></div><div class="z"><h2><p><b>
+Likes: 0</p><p>Dislikes:  0
+</b></p></h2></div>

@@ -1,0 +1,9 @@
+1 - 1020304050
+2 - all given options
+4 - 80
+5 - A true B false
+6 - anti dependency
+7 - insert a node at end
+8 - kruskal
+9 - D
+10 - a
