@@ -41,4 +41,4 @@ Big thanks to every student, community, and original creator who shares knowledg
 
 ---
 
-Good luck on your offer quest. Rooting for you. 🚀
+Good luck on your offer quest. Rooting for you. 
