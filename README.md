@@ -1,44 +1,66 @@
 # Offer Quest ✨
 
-Welcome to **Offer Quest** — a growing, student-first stash of placement and interview prep material. The goal is simple: make the hunt for an offer feel a little less chaotic and a lot more shared.
+> Placement prep, but we leave the ladder down for the next person. 🤝
 
-If something here saves you even one frantic pre-interview search, we did our job. Take what helps, share what you can, and good luck — you’ve got this. 🤍
+Welcome to **Offer Quest** - a student-built corner of the internet for placement and interview prep. The mission is simple: fewer "bro where did you get this?" messages at 2 AM, more people walking into interviews feeling ready. 💻
 
-## What’s here right now
+Whether you are chasing your first offer, your dream company, or just some peace before the next OA, you are welcome here. Take what helps. Add what you can. We are rooting for you. 🌱
 
-This repo is just getting started, so the shelves are currently empty. That is very much an invitation, not a problem.
+## The loot table 🎒
 
-| Section | Status | What it’ll hold |
+This repo is brand new, so right now it has the energy of a freshly opened Notion page. Empty? Yes. Full of potential? Also yes.
+
+| What | Status | The vision |
 | --- | --- | --- |
-| Company-wise questions | Coming soon | Previous-year placement and interview questions, grouped by company |
-| Prep resources | Coming soon | Useful public links, notes, and practice material |
-| Contribution guide | Coming soon | A simple way to add helpful material without making a mess |
+| Company-wise questions | Cooking 🍳 | Previous-year placement and interview questions, grouped by company |
+| Prep resources | Loading... ⏳ | Useful public links, notes, and practice material |
+| Contribution guide | On the way 🛠️ | A clean, easy way to add useful things |
+| Community credits | Forever open 🫶 | A shoutout wall for people whose work helps others |
 
-## How it’ll work
+## How this place works 🧭
 
-Questions and resources will be organised by company wherever possible, so you can focus on the roles and places you’re actually aiming for. No gatekeeping, no weird jargon olympics — just useful prep material for students helping students.
+Resources will be organised by company whenever possible, so you can lock in on the roles and places you are actually aiming for. No gatekeeping. No jargon olympics. Just students helping students get a little closer to that "Congratulations!" email.
 
-## A small but important note
+### The unofficial workflow
 
-Everything added here should be publicly available and okay to share. This project is meant to make preparation easier, never to take credit for someone else’s work.
+```text
+see a useful resource -> share it here -> help someone else survive placement season
+```
 
-Original creators and owners keep all rights to their material. If you own something here and would like credit, a correction, or removal, please open an issue or contact the maintainer — we’ll handle it with care.
+That is the whole plot. Beautiful cinema. 🎬
 
-## Contributing
+## Tiny FAQ, huge vibes 💬
 
-Have a question set, resource, or useful public link that could help someone else? Please add it!
+**Why is it empty?**
 
-- Keep material public and shareable.
+Every legendary repo starts with one file and unreasonable optimism. You are looking at the origin story.
+
+**Can I add something?**
+
+Please do. A good question set or public resource can save someone hours of chaos-scrolling.
+
+**Is this only for cracked people?**
+
+Absolutely not. This is for beginners, repeat applicants, late starters, early birds, and anyone whose browser currently has 47 prep tabs open. 😭
+
+## Contributing 🫡
+
+Got a question set, useful public link, or resource that helped you? Drop it in and help the next person out.
+
+- Keep material public and okay to share.
 - Organise it by company when possible.
 - Mention the original source whenever you can.
-- Be kind: one good contribution can genuinely make someone’s day easier.
+- Keep it helpful, clear, and kind.
+- No shady leaks, paid content reposts, or anything that puts someone else's work at risk.
 
-## Credits & thank yous
+Small contribution, real impact. Main-character behaviour, honestly. ✨
 
-Big thanks to every student, community, and original creator who shares knowledge openly. Offer Quest only works because people choose to leave the ladder down for the next person.
+## Credits and thank yous 💌
 
-**Valuable contributions will be credited here** as the repository grows. If we missed your name or source, please reach out — we want to make it right.
+Huge thanks to every student, community, mentor, and original creator who shares knowledge openly. Offer Quest exists because people choose to leave the ladder down for the next person.
+
+**Valuable contributions will be credited here** as this project grows. If your name or source is missing, or if you would like something corrected or removed, open an issue or contact the maintainer. We will make it right with care.
 
 ---
 
-Good luck on your offer quest. Rooting for you. 
+Good luck on your offer quest. May your code compile, your Wi-Fi behave, and your interviewer say "great question." 🚀
