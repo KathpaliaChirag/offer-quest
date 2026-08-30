@@ -1,0 +1,71 @@
+class Solution {   
+public:
+    int getLen(string s, int i) 
+    {
+        int count_match = 1;
+        i++;
+        for (;i<s.length();i++) 
+        {
+            if (s[i] == s[i-1]) 
+            {
+                count_match++;
+            } 
+            else 
+            {
+                break;
+            }
+        }
+        return count_match;
+    }
+    bool compare(string S, string w) 
+    {    
+        int i = 0, j = 0;
+        
+        while (i < S.length() && j < w.length()) 
+        {
+            if (S[i] == w[j]) 
+            {
+                int len1 = getLen(S, i);
+                int len2 = getLen(w, j);
+                
+                if (len1 == len2) 
+                {
+                    i = i+len1;
+                    j = j+len2;
+                    continue;
+                } 
+                else if (len1 >= 3 && len2 <= len1) 
+                {
+                    i = i+len1;
+                    j = j+len2;
+                } 
+              	else if( len2 > len1 or len1 < 3)
+              	{
+                   if(len1 != len2)
+                   {
+                  	return false;
+                   }
+                }
+            }
+            else 
+              {
+                  return false;
+              }
+        }
+        
+        return (i == S.length() && j == w.length()); // when i reach at last of s and j reach at last of words
+    }
+   int expressiveWords(string s, vector<string>& words)
+    {  
+        int res = 0;
+        
+        for (int i=0; i<words.size(); i++) 
+        {
+            if (compare(s, words[i])) 
+            {
+                res++;
+            }
+        }
+        return res;
+    }
+};
