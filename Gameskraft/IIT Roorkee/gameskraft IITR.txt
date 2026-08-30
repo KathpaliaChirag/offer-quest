@@ -1,0 +1,8 @@
+Gameskraft : 
+1st - https://www.geeksforgeeks.org/maximum-size-square-sub-matrix-with-sum-less-than-or-equals-to-k/
+
+2nd - Unique paths II
+3rd - https://codeforces.com/blog/entry/85203
+GeeksforGeeks
+Maximum size square Sub-Matrix with sum less than or equals to K - GeeksforGeeks
+A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and ...

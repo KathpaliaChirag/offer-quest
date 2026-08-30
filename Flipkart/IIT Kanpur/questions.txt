@@ -1,0 +1,17 @@
+Flipkart SDE- 
+90 min 3 ques 
+
+1. Repeated questions (4 5 times in flipkart OA)
+ https://leetcode.com/discuss/interview-question/991036/Flipkart-or-OA-or-Special-substring
+
+Solutions present in discussion is not working completely, 6/21 TC pass.
+
+2. Easy dfs/bfs based question.
+
+3. Given the values of S,N and M. Need to write program/algorithm to compute 
+
+(((S^N)%10)^M)%1000000007
+
+Constraints - S <=10^9
+N,M <= 1e9+7
+Can be solved using binary exponentiation

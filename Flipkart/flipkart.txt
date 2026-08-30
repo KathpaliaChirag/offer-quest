@@ -1,0 +1,9 @@
+https://leetcode.com/problems/koko-eating-bananas/description/
+
+2021 OA 
+
+    https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
+    https://leetcode.com/problems/trim-a-binary-search-tree/
+    https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+    https://leetcode.com/problems/merge-intervals/
+    https://leetcode.com/problems/can-place-flowers/
