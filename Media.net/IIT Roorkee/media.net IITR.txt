@@ -1,0 +1,8 @@
+Media.Net coding round
+1.5 hours (interview bit) roorkee
+
+https://www.interviewbit.com/problems/anagram-match/
+
+https://leetcode.com/discuss/interview-question/1463104/medianet-oa-minimum-cost-to-buy-oranges
+
+https://leetcode.com/discuss/interview-question/820311/Tree-XOR-queries
