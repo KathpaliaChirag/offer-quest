@@ -1,0 +1,9 @@
+paytm m bhi alag alag set tha sbka: 
+
+1)even level pe jo log h unka sum in binary tree
+
+2)rotten oranges
+
+3)k reversal in linked list
+
+4)subtraction in ll (ye dusre bande ke set me tha)

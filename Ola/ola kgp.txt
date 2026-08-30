@@ -1,0 +1,5 @@
+1. given an array which contain price of toffies, and for different queries we are given money we have, and we have to print how many toffies we can choose to buy
+
+https://stackoverflow.com/questions/10443388/bidirectional-spanning-tree
+
+https://www.geeksforgeeks.org/arrange-array-elements-such-that-last-digit-of-an-element-is-equal-to-first-digit-of-the-next-element/

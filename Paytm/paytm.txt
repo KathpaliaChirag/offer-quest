@@ -1,0 +1,20 @@
+IIT Roorkee
+A few of them were,
+1. Sort rows in a matrix
+2. Sum of cousins in a tree
+3. Generate 3-smooth sequence - just google it 
+4. Superior elements in an array
+
+
+IIT Madaras
+
+https://leetcode.com/problems/rotting-oranges/description/
+
+https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
+
+https://www.geeksforgeeks.org/print-alternate-nodes-from-all-levels-of-a-binary-tree/
+
+https://www.geeksforgeeks.org/smallest-number-in-bst-which-is-greater-than-or-equal-to-n/
+
+
+2 to tree wale the, simple sum tree tha aur height thi

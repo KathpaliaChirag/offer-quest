@@ -1,0 +1,10 @@
+3 coding questions ... 1hr 45min
+
+1) rotten oranges
+https://leetcode.com/problems/rotting-oranges/
+
+2)Subtract Two Numbers represented as Linked Lists
+https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
+
+3)find a smallest number  greater or equal then a key in binary tree
+*pic attached
