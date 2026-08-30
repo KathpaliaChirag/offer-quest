@@ -32,7 +32,7 @@ Use those links as the first stop for coverage gaps. They are deliberately separ
 
 The same page now includes a deep-research pass of PDF indexes, company-wise question dashboards, live practice sites, and public Google Drive collections. Research checkpoint: 31 August 2026.
 
-Recent community notes are organised in [Amazon](<Amazon/community-links.md>), [DE Shaw](<DE Shaw/community-links.md>), [Google](<Google/community-links.md>), [Media.net](<Media.net/community-links.md>), [Microsoft](<Microsoft/community-links.md>), [Samsung](<Samsung/community-links.md>), [Texas Instruments](<Texas Instruments/community-links.md>), and [Visa](<Visa/community-links.md>). General links are in [community problem links](<Other Resources/community-problem-links.md>).
+Recent community notes are organised in [Amazon](<Amazon/community-links.md>), [DE Shaw](<DE Shaw/community-links.md>), [Google](<Google/community-links.md>), [MathWorks](<MathWorks/README.md>), [Media.net](<Media.net/community-links.md>), [Microsoft](<Microsoft/community-links.md>), [Samsung](<Samsung/community-links.md>), [Texas Instruments](<Texas Instruments/community-links.md>), and [Visa](<Visa/community-links.md>). General links are in [community problem links](<Other Resources/community-problem-links.md>).
 
 ## How to add an entry
 
