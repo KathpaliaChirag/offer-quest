@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/count-of-ways-to-split-a-given-number-into-prime-segments/#:~:text=There%20are%206%20ways%20to,and%20(11%2C%20373).

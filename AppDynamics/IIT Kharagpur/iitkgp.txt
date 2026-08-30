@@ -1,0 +1,8 @@
+https://leetcode.com/discuss/interview-question?currentPage=1&orderBy=newest_to_oldest&query=appdynamics
+
+
+IIT KGP, 12 MCQs( coding, input/output based ) + 3 coding
+Coding -:
+1. Given an array of n integers , find the max value of a[j]-a[i], such that i<j and a[j]>a[i].  O(n) or  O(nlogn) soln.
+2. Given a string of length 7, containing either digits from 0 to 8, or a character '?' eg "137?0?2". You can replace '?' with any digit from o to d. ( 0<=d<=8 ), such that the sum of digits of 7 digits is S.  return all such distinct valid strings. ( Backtracking solution)
+3. Same as old "Maximum Common Companies" ( Graph, DFS, connected component)

@@ -1,0 +1,53 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int parent[27];
+typedef pair < pair < char, char >, int > input;
+void charToInt(vector<input> &arr) {
+	for(int i = 0; i < arr.size(); ++i) {
+		int n1 = (int) (arr[i].first.first - 'A');
+		int n2 = (int) (arr[i].first.second - 'A');
+		
+		parent[n1] = n1, parent[n2] = n2;
+	}
+}
+int root(int cur) {
+	while(parent[cur] != cur) {
+		parent[cur] = parent[parent[cur]];
+		cur = parent[cur];
+	}
+	return cur;
+}
+
+bool cmp(input &m, input &n) {
+	return m.second < n.second;
+}
+bool cmp2(input &a, input & b) {
+	return a.first.first < b.first.first;
+}
+vector<input> solve(vector < input >&v) {
+	vector < input > out;
+	sort(v.begin(), v.end(), cmp); 
+	for(int i = 0; i < v.size(); ++i) {
+		int n1 = (int) (v[i].first.first - 'A');
+		int n2 = (int) (v[i].first.second - 'A');
+		
+		int cost = v[i].second;
+		if(root(n1) != root(n2)) {
+			out.push_back({{n1 + 'A', n2 + 'A'}, cost});
+			int p = root(n1);
+	        int q = root(n2);
+	        parent[p] = parent[q];
+		}
+	}
+	sort(out.begin(), out.end(), cmp2); 
+	return out;
+}
+int main() {
+	vector<input>ans{{{'A', 'B'}, 1}, {{'B', 'C'}, 4}, {{'B', 'D'}, 6}, {{'D', 'E'}, 5}, {{'C', 'E'}, 1}};
+    charToInt(ans);
+	vector<input> temp = solve(ans);
+	for(auto it: temp)
+		cout << it.first.first << " " << it.first.second << " " << it.second << endl;
+	return 0;
+}

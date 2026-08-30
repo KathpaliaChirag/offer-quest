@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int highProfit(vector<int> arr, int k){
+    priority_queue<int> pq;
+    
+    for(auto x : arr)
+        pq.push(x);
+    int profit = 0;
+    while(k){
+        int x = pq.top();
+        pq.pop();
+        profit += x;
+        pq.push(--x);
+        k--;
+    }
+    return profit;
+}
+
+int main(){
+    int n,k;
+	cin>>n>>k;
+	vector<int> arr(n,0);
+	for(int i=0; i<n; i++){
+	    cin>>arr[i];
+	}
+    cout<<highProfit(arr,k);
+    return 0;
+}

@@ -1,0 +1,36 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+bool isPrime(string number){
+    int num = stoi(number);
+    for (int i = 2; i * i <= num; i++)
+        if ((num % i) == 0)
+            return false;
+    return num > 1 ? true : false;
+}
+int countPrime(string a){
+    if(a.length() == 0) return 1;
+  
+    
+    int c = 0;
+    for(int i=1;i<=6;i++){
+        if(a.length()>=i and isPrime(a.substr(0,i))){
+           // cout<<a.substr(i-1)<<endl;
+            c+=countPrime(a.substr(i));
+            c%=1000000007;
+        }
+        
+    }
+    return c;
+}
+
+
+int main() {
+string a;
+cin>>a;
+
+
+
+cout<<countPrime(a);
+	return 0;
+}

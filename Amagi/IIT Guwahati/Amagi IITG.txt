@@ -1,0 +1,14 @@
+30 mins apti
+10 mins english
+30 mins CS Section
+50 mins Coding
+
+CS SECTION:
+Trees, heaps, arrays, 1-2 questions from CN, deadlock in OS
+
+
+Amagi IITG
+Q1: Single Number
+https://leetcode.com/problems/single-number/description/
+Q2: String Permutations in sorted order
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/amp/

@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+vector<string> retriveMostFrequentlyUsedWord(string literatureText, vector<string> wordsToExclude){
+    
+    unordered_map<string,int> map;
+    unordered_set<string> exWord;
+    
+    stringstream s(literatureText);
+    string word;
+    int k=0;
+    vector<string> v;
+    
+    for(auto x : wordsToExclude)
+        exWord.insert(x);
+    
+    while(s>>word){
+        if(!exWord.count(word))
+            map[word]++;
+        k = max(k, map[word]);
+    }
+    
+    for(auto x : map){
+        if(x.second == k)
+            v.push_back(x.first);
+    }
+    return v;
+} 
+
+
+int main(){
+    string str = "k and jill jill k k jill went to the market to buy butter and cheese is jack favorite food";
+    vector<string> v = {"the","is","and","to","he"};
+    vector<string> s = retriveMostFrequentlyUsedWord(str,v);
+    for(auto x: s)
+        cout<<x<<" ";
+    return 0;
+}

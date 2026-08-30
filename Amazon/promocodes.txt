@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+static int countOne(int n){
+        int count = 0;
+        while(n){
+            n = n&(n-1);
+            count++;
+        }
+        return count;
+    }
+    
+static bool compare(int n, int m){
+    int a = countOne(n);
+    int b = countOne(m);
+    if(a==b)
+        return (n<=m);
+    else
+        return (a<b);
+}
+
+vector<int> sortByBits(vector<int>& arr) {
+    sort(arr.begin(),arr.end(),compare);
+    return arr;
+}
+
+
+int main() {
+    int num;
+    int p;
+    cin>>num>>p;
+    vector<int> ID(num,0);
+    
+    for(int i=0; i<num; i++){
+        cin>>ID[i];
+    }
+    ID = sortByBits(ID);
+    
+    for(int i=num-1; i>=num-p; i--){
+        cout<<ID[i]<<" ";
+    }
+}

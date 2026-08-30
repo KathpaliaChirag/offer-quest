@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int grtDisFact(vector<int> arr){
+    
+    int maxDiff = 0;
+    int maxElement = arr[0];
+    for(int i=1; i<arr.size(); i++){
+        if(maxElement - arr[i] > maxDiff)
+            maxDiff = maxElement - arr[i];
+        
+        if(arr[i] > maxElement)
+            maxElement = arr[i];
+    }
+    return maxDiff;
+}
+
+int main(){
+    int n;
+	cin>>n;
+    vector<int> orderId(n,0);
+    for(int i=0; i<n; i++)
+        cin>>orderId[i];
+        
+    unordered_map<int,int> map;
+    
+    for(int i=0; i<n; i++)
+        map[orderId[i]] = i;;
+    sort(orderId.begin(), orderId.end());
+    
+    for(int i=0; i<n; i++)
+        orderId[i] = map[orderId[i]];
+        
+    cout<<grtDisFact(orderId);
+	return 0;
+}
