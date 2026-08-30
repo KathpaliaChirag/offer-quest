@@ -33,6 +33,8 @@ These folders contain company-wise questions or solutions that are not currently
 - [Campus-Placement-Preparation](https://github.com/bhardwaj75/Campus-Placement-Preparation) - a practical roadmap across aptitude, DSA, CS fundamentals, and interviews.
 - [Campus Placement and Miscellaneous CS Resources](https://github.com/Samuela31/Campus-Placement-and-Miscellaneous-CS-Resources-and-Questions) - solved practice questions plus OS, CN, DBMS, and interview prep.
 - [TCS solved problems](https://github.com/Amaan9136/tcs-solved-problems) - TCS NQT coding practice and solutions.
+- [2025 Tech OA by FastPrep](https://github.com/perixtar/2025-Tech-OA-by-FastPrep) - recent OA-style practice collection.
+- [TargetSMSNG](https://github.com/MohMaya/TargetSMSNG) - Samsung-focused community practice repository.
 
 ## Why links instead of copied PDFs?
 
@@ -76,6 +78,21 @@ These links were reachable from public pages during research. Drive owners can c
 
 - [IIT KGP previous OA questions](https://drive.google.com/drive/folders/1c2wIdukwLZCYtb8wIA2-T7bkqZ86xfsa) and [placement OA 2025](https://drive.google.com/drive/folders/1_INQ8OK3W5FAaKlQ-izFFw6ksnqyzvtx) were shared in a public Reddit thread. Access may be restricted or the material may be unverified.
 - [Advanced DSA Drive](https://drive.google.com/drive/folders/1Da_v5uHIvBscWcRRgMsYGq-hJ00dQL9Y) was shared by the programming community. Use it for learning, never for a live assessment.
+
+### Community-submitted Drive leads
+
+These links were shared by a community contributor in July and August 2026. They are discovery leads only, not official company papers. Verify access, provenance, and redistribution rights before downloading.
+
+- [Unlabeled Drive 1](https://drive.google.com/drive/folders/1zlUN6n9i_2bhgRzjxOmcSoVCKYAkaNGC)
+- [Unlabeled Drive 2](https://drive.google.com/drive/folders/1mhkoTBBqLlrTgVDPLb6FJXWCEwVxCcRz)
+- [Visa-adjacent Drive 1](https://drive.google.com/drive/folders/1fgax9IeFfZz7GBapURYFhKhoiWcXVOAL)
+- [Visa-adjacent Drive 2](https://drive.google.com/drive/folders/1hXagQKiweVpSvoYiN0KZGVa72W-kew4i)
+- [Microsoft previous-year Drive](https://drive.google.com/drive/folders/1kff1cJ3l5TwvuftanQOBRYdqV0O482dR?usp=drive_link)
+- [Microsoft second-year/context-unspecified Drive](https://drive.google.com/drive/folders/1Qs6sqW-BgS3DY00MvPmPSNjF5gRLT5x5)
+- [Last year's questions](https://drive.google.com/drive/folders/1gP8u8JOUHPBGf4QV1McVE1dEMfxJGYes?usp=drive_link)
+- [This year's questions](https://drive.google.com/drive/folders/16SUQj1gcmi1qqb-y8sbLig6ZdbAtBuyX?usp=drive_link)
+- [Word Ladder share link](https://share.google/R3THXHQWa4mfL1oHD)
+- [Additional share link](https://share.google/zXAJoOcLgYxs3WU1z)
 
 ### Curation rule
 
