@@ -1,0 +1,176 @@
+
+<script type="text/x-mathjax-config">MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  }
+});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<style>
+.x {
+  background-color: lightgrey;
+  border: 10px solid green;
+}
+.y {
+  background-color: lightyellow;
+  border: 5px solid black;
+}
+.z {
+  background-color: lightpink;
+  border: 5px solid red;
+}
+.tele {
+  background-color: yellow;
+  border: 5px solid red;
+}
+</style>
+<a href="http://t.me/CHEGGHAC"><div class=tele><center><h3>CLICK HERE TO GET MORE FREE SOLUTIONS</h3></center></div></a>
+<div class="x">
+<div class="ugc-base question-body-text">
+<div class=""><p>A permutation P is called unstable if it keeps changing every
+second based on the rule below.<br/>
+-Every element of the permutation is changing every second<br/>
+- independently following a rule, i.e., after one second every P[i]
+becomes P[P[i]]</p>
+<p>- Given a permutation, find the minimum time after which it will
+become stable. If it will never become stable, return -1.</p>
+<p>For example, given N = 3 and P[3,2,1], In one second it will
+become [P[P[3]], P[P[2]], P[P[1]] ] = [1, 2, 3]. The permutation
+[1,2,3] is stable as it will not change further after applying the
+same rule again.</p>
+<p>Function Description<br/>
+Complete the function solve the editor below. The function should
+return a single integer as stated above.</p>
+<p>solve has the following parameter:<br/>
+P[P[1],...P[n]]: an array of integers</p>
+<p>Constraints<br/>
+1 &lt;= n &lt;= 10^5<br/>
+1 &lt;= P[i] &lt;= n</p>
+<p>The first line contains n that denotes the length of
+Permutation.</p>
+<p>The following line contains permutation P of n distinct
+space-separated integers.</p>
+<p>Sample Case 0<br/>
+Sample Input For Custom Testing<br/>
+[1,3,2,5,6,7,4]</p>
+<p>Sample Output<br/>
+2</p>
+<p>Explanation<br/>
+After one second, the permutation will become
+[1,2,3,6,7,4,5].<br/>
+After two seconds, the permutation will become [1,2,3,4,5,6,7].</p>
+<p>Sample Case 1<br/>
+Sample Input For Custom Testing<br/>
+[2,3,1,5,6,7,4]</p>
+<p>Sample Output<br/>
+-1</p>
+<p>Explanation<br/>
+The permutation never becomes stable, thus the answer is -1.</p>
+<p>I want the code in c++</p>
+</div>
+</div></div></div></div></div></div><h1><p><b>
+<mark>:: Solution ::</mark>
+</b></p></h1><div class="y"><div class="y"><div class="answer-given-body ugc-base">
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+
+#include &lt;cmath&gt;
+
+using namespace std;
+
+
+
+long long ans = 0, x;
+
+long long whenStable(long long *a, long long n)
+
+{
+
+    bool flag = false;
+
+    long long copy[n];
+
+    for (int i = 0; i &lt; n; i++)
+
+    {
+
+        copy[i] = a[a[i] - 1];
+
+        if (a[a[i] - 1] != a[i])
+
+            flag = true;
+
+    }
+
+    // for (int i = 0; i &lt; n; i++)
+
+    // {
+
+    //  cout &lt;&lt; copy[i] &lt;&lt; " ";
+
+    // }
+
+    //cout &lt;&lt; endl;
+
+    ans++;
+
+    if (flag == false)
+
+        return ans - 1;
+
+    if (ans &gt; x * 2) 
+
+    {
+
+        return -1;
+
+    }
+
+    whenStable(copy, n);
+
+}
+
+
+
+signed main()
+
+{
+
+    long long n;
+
+    cin &gt;&gt; n;
+
+    x = sqrt(n);
+
+    long long a[n];
+
+    for (long long i = 0; i &lt; n; i++)
+
+        cin &gt;&gt; a[i];
+
+    cout &lt;&lt; whenStable(a, n);
+
+}
+
+
+
+// time complexity = O(n * sqrt(n));
+
+// We can check by printing out the obtained array and find out that after sqrt (n) calls it will 
+
+// either already become stable or will repeat in cycles. We can understand this by printing out the 
+
+// copy array which I have commented out on different samples or we can understand that if N&lt;=10^5.
+
+//Then the maximum possible time complexity is n * sqrt (n) 
+
+
+
+
+
+</code></pre>
+</div></div></div></div><div class="z"><h2><p><b>
+Likes: 0</p><p>Dislikes:  0
+</b></p></h2></div>

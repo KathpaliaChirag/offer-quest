@@ -1,0 +1,4 @@
+Given saving buying cost and selling cost
+Maximize profit
+Aur dusra wala tha k length sliding windows m jo minimums tge
+Unka maximum
