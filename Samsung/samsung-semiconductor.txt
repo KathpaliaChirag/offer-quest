@@ -1,0 +1,3 @@
+1 count min trip required to transport boxes,where size of each trip is given
+2 count number of nodes intree who's left child sum is equal to given k
+3 count number of nodes in tree  who's sum of digit is equal to k (each contains some numerical value)

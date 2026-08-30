@@ -1,0 +1,4 @@
+Quant,LR,verbal and reasoning,computer science fundamentals,os,dbms,
+4 coding questions.
+Solve minimum 3 for next rounds.
+Sorting and searching

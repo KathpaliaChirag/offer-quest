@@ -1,0 +1,5 @@
+Duration 90 min
+14 mcq+ 3 coding
+ques 1 dp
+2 dfs
+3 segment tree.

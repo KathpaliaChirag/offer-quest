@@ -1,0 +1,1 @@
+Given a seven segment display of a single digit, the 7 switches for each segment and a string of digits, find the min number of toggles required to print the string

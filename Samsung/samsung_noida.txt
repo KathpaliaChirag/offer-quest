@@ -1,0 +1,21 @@
+Samsung delhi:
+------------------
+3 questions, 70 minutes
+
+1. Subset sum problem
+
+lowest common ancestor
+
+Delete deepest left node of tree
+
+Sum of unique elements of array
+
+Delete nodes starting from the head of a linked list such that the sum of remaining nodes becomes less than x
+
+Count all subtree of a BST between low and high
+
+Compute the LCA of two nodes in a BST
+
+Deepest Leaf leaf nodes in Binary tree
+
+

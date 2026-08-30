@@ -1,0 +1,34 @@
+SRIB
+. Longest AP (https://www.geeksforgeeks.org/longest-arithmetic-progression-dp-35/)
+. Unbounded Knapsack (https://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/)
+. Next greater number
+. Min cost from src to each other node in a directed graph
+. Minimum swaps to relative sort two arrays
+. Sum of boundary nodes of a binary tree
+1) unbounded knapsack
+2) next permutation of a string
+
+
+SRID
+. Subset Sum 
+. Lowest Common Ancestor (https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/)
+. Delete/Find deepest left node of a tree
+. Sum of unique elements of an array
+. check if there is a subsequence with given sum
+. Linked list deletion from the beginning
+. Count all subtrees of a BST between low and high (https://www.geeksforgeeks.org/count-bst-subtrees-that-lie-in-given-range/)
+. factorial
+. Dijkstra algo
+. Sum of all nodes at level which contains node with k value in a binary tree
+
+SRIN
+. Delete nodes starting from the head of a linked list such that the sum of remaining nodes becomes less than x
+. Count all subtrees of a BST between low and high (https://www.geeksforgeeks.org/count-bst-subtrees-that-lie-in-given-range/)
+. Compute the LCA of two nodes in a BST
+. Deepest Leaf leaf nodes in Binary tree
+
+
+Samsung Semiconductor
+. Count min trip required to transport boxes,where size of each trip is given
+. Count number of nodes intree who's left child sum is equal to given k
+. Count number of nodes in tree  who's sum of digit is equal to k (each contains some numerical value)
