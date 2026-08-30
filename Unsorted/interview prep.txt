@@ -1,0 +1,20 @@
+- Be curious. Ask many questions.
+	- How your normal day looks like, when you are not interviewing.
+	- After proposing a solution. Ask them, have I covered all the corner cases? Or have left some.
+	- During solving process, interact as much as you can with them. Tell them your thinking process. Interviewers like someone who is curious and is good in communications. Someone whos is extrovert.
+	- What are the best practices that you guys follow.
+	- Just go in there as you are there to know as much about the company you can. Make it your learning session, instead of an interview.
+	- Ask for feedback. Ask them what they expect from a person working in his team. 
+	- Reverse interview the company at the end of the interview. Ask about your priorities, whether they are there or not.
+	
+	
+HR session
+-------------
+What motivates you looking ahead?
+I'll be learning the best practices to program. I'll be working with and learning from the best minds in the industry. I'll be solving new problems everyday. Problems that impact a large number of people. As Microsoft products are used by the masses, a small change impacts many lives in some way or the other. To be able to part something like this motivates me.
+
+What are you excited about? - To learn how industry works. How engineers works in big teams, how they collaborate. Learn the best practices for creating a program. 
+
+Don't have a monologue prepared and start reciting it. Have a conversation!
+
+- Ask to clarify. Don't worry about losing face. You are there to learn something from the interviewer. They want learners only.

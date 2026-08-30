@@ -1,0 +1,85 @@
+/*
+first store the frequencys in the map. then count the total distinct and even frequency number
+and if even freq. number is repeated odd time then reduce the total count by one and return
+*/
+
+//1ST CODE
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int MaxDistinct(vector<int> nums){
+    unordered_map<int,int> map;
+    
+    for(auto i : nums)
+        map[i]++;
+    
+    unordered_map<int, int>:: iterator p;
+    int count1=0;
+    int count2=0;
+    for (p = map.begin(); p != map.end(); p++){
+        if(p->second %2 == 0)
+            count2++;
+        count1++;
+    }
+    if(count2 % 2 )
+        count1--;
+    
+    return count1;
+}
+
+int main() {
+	vector<int> v = {1,2,2,3,3,4,4,3,3,3,3,3,3};
+	int k =0;
+	cout<<MaxDistinct(v);
+	return 0;
+}
+
+
+
+
+
+//2ND CODE
+
+/*
+int fun(vector<int> a){
+    int n=a.size();
+    unordered_map<int,int> mp;
+    for(auto x:a){
+        mp[x]++;
+    }
+    int count_one=0;
+    int count_two=0;
+    for(auto x:mp){
+        int t=x.second;
+        if(t>=3){
+               t%=3;
+            if(t==0) t=1;
+        }
+        if(t==1){
+            count_one++;
+        }else if(t==2){
+            count_two++;
+        }
+      
+    }
+    
+    count_one+=count_two;
+    if(count_two%2!=0)  count_one--;
+    return count_one;
+}
+int main() {
+    vector<int> arr={1,2,2,3,3,4,4};
+    cout<<fun(arr)<<endl;
+    
+    vector<int> r={1,2,2,3,3,4,4,3,3,3,3,3,3,3};
+    cout<<fun(r)<<endl;
+    
+    vector<int> a={1,2,2};
+    cout<<fun(a)<<endl;
+    std::cout << "Hello World!\n";
+}
+
+
+*/
+

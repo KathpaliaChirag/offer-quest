@@ -1,0 +1,162 @@
+1) Compression Different compression techniques are used in order to reduce the size of the messages sent over the web.
+An algorithm is designed to compress a given string by describing the total number of consecutive occurrences of each character next to it.
+For example, consider the string "abaasass".
+Group the consecutive occurrence of each character:
+• 'a' occurs one time.
+• 'b' occurs one time.
+• 'a' occurs two times consecutively.
+• 's' occurs one time.
+• 'a' occurs one time.
+• 's' occurs two times consecutively.
+If a character only occurs once, it is added to the compressed string.
+If it occurs consecutive times, the character is added to the string followed by an integer representing the number of consecutive occurrences.
+Thus the compressed form of the string is "aba2sas2".
+
+
+
+
+
+2) There are a number of animal species in the jungle.
+Each species has one or more predator that may be direct or indirect.
+Species X is said to be a predator of species Y if at least or of the following is true:
+Species X is a direct predator of species Y
+If species X is a direct predator of species Z, and Z is a direct predator of Y, then spec is an indirect predator of species Y.
+Indirect predation is transitive through any numb of levels.
+Each species has a maximum of 1 direct predator.
+No two species will ever be mutual predators, and no species is a predator of itself.
+Your task is to determine the minimum number of groups that must be formed to so that no species is grouped with its predators, direct or indirect.
+As an example, consider an array where each position represents a species and each element represents a predator of that species or-1 if there are none.
+The array is a [-1, 8, 6, 0, 7, 3, 8, 9, -1, 6, 1] and we’ll use zero indexing. Output : 5
+
+
+
+
+3) https://leetcode.com/problems/last-stone-weight/
+
+
+
+4) Consider an array of n ticket prices, tickets.
+A number, m, is defined as the size of some subsequence, s, of tickets where each element covers an unbroken range of integers.
+That is to say, if you were to sort the elements in s, the absolute difference between any elements j and j + 1 , would be either 0 or 1.
+Determine the maximum length of a subsequence chosen from the tickets array.
+Example:
+tickets = [8, 5, 4, 8, 4]
+Valid subsequences, sorted are, {4, 4, 5} and {8, 8}.
+These subsequences have m values of 3 and 2 respectively.
+Output 3
+tickets = [4, 13, 2, 3]
+Output 3
+
+
+
+
+
+5) https://leetcode.com/discuss/interview-question/901091
+rounds = [[left, right, contribution]]
+Example : n = 5, rounds = [[1, 2, 10], [2, 4, 5], [3, 5, 12]]
+Output : 17
+Example : n = 5, rounds = [[1, 2, 100], [2, 5, 100], [3, 4, 100]]
+Output : 200
+Example : n = 4, rounds = [[2, 3, 603], [1, 1, 286], [4, 4, 882]]
+Output : 882
+
+
+
+
+6) A quality agent is responsible for inspecting samples of the finished products in the production line.
+Each sample contains defective and non-defective products represented by 1 and 0 respectively.
+After placing the product samples sequentially in a two- dimensional square matrix of product samples.
+Determine the size of the largest square area of defective products.
+
+Same like https://leetcode.com/problems/maximal-square/
+
+
+
+
+7) An investor has saved some money and wants to invest in the stock market.
+There are a number of stocks to choose from, and they want to buy at most 1 share in any company.
+The total invested cannot exceed the funds available.
+A friend who is a stock market expert has predicted the value of each stock after 1 year.
+Determine the maximum profit that can be earned at the end of the year assuming the predictions come true.
+Example
+saving = 250
+currentValue = [175, 133, 109, 201, 97]
+futureValue = [200, 125, 128, 228, 133]
+To maximize profits, the investor should buy stocks at indices 2 and 4 for an investment of 109 + 97 = 206.
+At the end of the year the stocks are sold for 128+133 = 261, so total profit is 261-206 = 55
+Example
+saving = 30
+currentValue = [1,2,4,6]
+futureValue = [5,3,5,6]
+Output = 6
+Example
+saving = 500
+currentValue = [150, 199, 200, 168, 153]
+futureValue = [140, 175, 199, 121, 111]
+Output = 0 since all of the stocks lost money
+
+
+
+
+
+
+
+
+8) In securities research, an analyst will look at a number of attributes for a stock.
+One analyst would like to keep a record of the highest positive spread between a closing price and the closing price on any prior day in history.
+Determine the maximum positive spread for a stock given its price history.
+If the stock remains flat or declines for the full period, return -1.
+
+Example 0: px = [7, 1, 2, 5] Output : 4
+
+Example 1: px = [7, 5, 3, 1] Output : -1
+
+Example 2: px = [2, 3, 10, 2, 4, 8, 1] Output : 8
+
+Same like https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+
+
+
+
+
+
+
+9) Given an array of n distinct integers, d =[d[0], d[1],.., d[n-1]], and an integer threshold t.
+How many (a,b,c) index triplets exist that satisfy both of the following conditions?
+d[a] < d[b] < d[c]
+d[a] + d[b] + d[c] ≤ t
+Constraints
+1 ≤ n ≤ 10^4
+0 ≤ d[i] < 10^9
+0 < t < 3 x 10^9
+Example 1 : d = [1, 2, 3, 4, 5] t = 8
+Output 1 : 4
+Example 2 : d = [1, 2, 3, 4, 6] t = 8
+Output 2 : 3
+Example 3 : d = [3, 1, 2, 4] t = 7
+Output 3 : 2
+
+
+
+
+1. A milling machine in a manufacturing factory has a tool changing system. The tool changer holds ‘n’ tools and some duplicate tools may be included. The operator must move through the tools 1 at a time either left or right. The tool changer is circular. Given the name of the next tool needed, determine the minimum number of left or right moves to reach it.
+
+Input:
+Tools = [ “ballendmill”, “keywaycutter”, “slotcutter”, “facemill” ] Startindex = 1
+Target = “ballendmill”  Output : 1 (can reach target by moving 3 times right or 1 move left, so minimum is 1)  Constraints : 
+1<=n<=100 0<=startIndex<=n-1 1<=length of tools[i] and target tool<=100 Target is in tools 
+
+
+
+
+2. Given an integer total , calculate the number of possible ways to achieve total as sum of the non-negative integers from 1 to k (inclusive).  Input: Total = 8 K = 2  Output: 5 Explanation: { 8 times 1, 6 times 1 and 1 times 2, 4 times 1 and 2 times 2,... so on } 
+
+
+
+
+3. A palindrome subsequence has some score which is defined as follows:     The score of string s is maximum product of the lengths of two non-overlapping palindromic subsequences of s say a & b.In other words, score(s) = max( length(a) * length(b) ). Find the score of the given string.  
+Input: S = “attract”
+
+Output: 4
+ Explanation: There are many palindromic subsequences out of which only non overlapping subseq are to be considered. Here a = “atta” & b = “c” or “t” and score = 4 * 1 = 4.  Constraints: 1<=|s|<=3000 Characters belong to ascii set [a-z]

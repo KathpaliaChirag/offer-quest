@@ -1,0 +1,13 @@
+Questions were different for everyone.
+
+I was very lucky to get very easy : Two sum and find maximum in array.
+
+Others got questions like coin change, bfs, longest subsequence which is also a substring, etc.
+
+2 Questions only :
+
+1st question : prefix, suffix of a string (medium).
+
+2nd question: Two sum variations. (easy)
+
+

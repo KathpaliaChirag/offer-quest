@@ -1,0 +1,34 @@
+/*Question : Count the number of strictly increasing subarray of a specified size k in an array of size N .
+
+Eg: Array= [ 5,3,5,7,8] and k=3 , The answer is 2 as [3,5,7] and [5,7,8] are the answer.
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int countPairs(vector<int> num, int k){
+    
+    int i=1;
+    int j = 1;  // to count length of each increasing subarray
+    int count = 0; // to count the k size subarray
+    while(i<num.size()){
+        if(num[i] > num[i-1]){
+            j++;
+        }
+        else{
+            if(j >= k)
+                count += j-k+1;  //if at any point it is not increasing then increase count
+            j = 1;
+        }
+        i++;
+    }
+    count += j-k+1;
+    return count;
+}
+
+int main() {
+	vector<int> v = {5,3,5,7,8};
+	int k =5;
+	cout<<countPairs(v,k);
+	return 0;
+}

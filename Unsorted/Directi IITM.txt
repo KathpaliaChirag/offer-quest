@@ -1,0 +1,8 @@
+Directi IITM
+--------------
+
+- https://leetcode.com/problems/reconstruct-itinerary/description/
+
+- https://www.interviewbit.com/problems/ways-to-form-max-heap/
+ 
+- https://leetcode.com/discuss/interview-question/820311/Tree-XOR-queries

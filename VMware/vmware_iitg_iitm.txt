@@ -1,0 +1,33 @@
+VMware IITG
+------------------------------------------------------
+Questions were in different sets
+2 code 15 Technical
+90 Mins
+
+Q1. Given an Array of size n; and queries..each query consist of 2 numbers <low, high>
+    Find the number of elements (inclusive) present in the array in the range of query..
+	A.size() <= 10^5
+	A[i] <= 10^9
+	q <= 10^5
+	
+	
+Q2. Given 2 strings of length n. Convert one string to another by using min operations cost
+	Operation 1: increment all the character of the string i.e (2 places for 'a' -> 'c' & 'z' -> 'b')
+				 cost = 0
+	Operation 2: delete any character
+				 cost = 1
+	Operation 3: Insert any character
+				 cost = 2
+				 
+	n <= 10^3
+	
+	
+IIT Madras
+--------------
+
+https://www.geeksforgeeks.org/longest-arithmetic-progression-dp-35/
+Longest AP
+
+https://www.geeksforgeeks.org/longest-arithmetic-progression-dp-35/
+
+

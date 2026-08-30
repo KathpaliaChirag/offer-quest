@@ -1,0 +1,247 @@
+https://www.interviewbit.com/oops-interview-questions/
+https://www.javatpoint.com/cpp-interview-questions
+https://www.geeksforgeeks.org/namespace-in-c/
+https://www.geeksforgeeks.org/friend-class-function-cpp/ 
+https://www.geeksforgeeks.org/virtual-function-cpp/
+https://www.geeksforgeeks.org/operator-overloading-c/
+https://www.stroustrup.com/bs_faq2.html#overload-dot:- Why ternary operator and sizeoof operator can be overloaded by a programmer
+https://www.geeksforgeeks.org/commonly-asked-oop-interview-questions/
+
+ 
+------------------------------------------------------------
+
+OOPs - defined using objects.
+- Objects can be considered as real-world instances of entities like class, that have some characteristics and behaviors.
+
+- Object is a runtime entity it is created at the runtime.
+-Characterstics :- data variables 
+-Behaviour :- Methods
+
+-------------------------------
+programming paradigms other than OOPs?
+-----------------------------------
+
+    Imperative Programming Paradigm
+    Declarative Programming Paradigm
+---------------------------------------
+
+Imperative Programming :- focus on how to execute program logic and defines control flow as statements that change a program state:- 
+Can be classified as :-
+a) Procedural Programming
+b) OOPS
+c) Parallel Programming
+
+Declarative :- Focuses on what to execute and defines program logic, but not a detailed control flow.
+
+Can be classified into :-
+a) Logical Programming Paradigm: 
+b)Functional Programming Paradigm:
+c) Database Programming Paradigm:
+----------------------------------------------------------
+
+Structured Programming
+-------------------------
+Structured Programming refers to the method of programming which consists of a completely structured control flow. Here structure refers to a block, which contains a set of rules, and has a definitive control flow, such as (if/then/else), (while and for), block structures, and subroutines.
+
+-> C :-  structured Programming
+-> C++ structured Programming and Object Oriented Programming
+-----------------------------------------------------------
+
+Polymorphism :- Poly :- many , morph :- shapes.
+
+Two types of polymorphism :- 
+ a) Compile Time(Static or Early Binding) :- C++ supports compile-time polymorphism with the help of features like templates, function overloading, and default arguments.
+
+ b) RunTime (Dynamic or Late Binding) :-  C++ supports Runtime polymorphism with the help of features like virtual functions. Virtual functions take the shape of the functions based on the type of object in reference and are resolved at runtime.
+
+ Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class. In case of function overriding, parent and child class both contains the same function with the different definition. The call to the function is determined at runtime is known as runtime polymorphism.
+-----------------------------------------------------------
+
+. How much memory does a class occupy?
+
+Classes do not consume any memory. They are just a blueprint based on which objects are created. Now when objects are created, they actually initialize the class members and methods and therefore consume memory.
+
+It is just the logical representation of the data.
+
+When an object is created without a new keyword, then space is not allocated in the heap memory, and the object contains the null value in the stack.
+------------------------------------------------------------
+
+Is it always necessary to create objects from class?
+
+No. An object is necessary to be created if the base class has non-static methods. But if the class has static methods, then objects don’t need to be created. You can call the class method directly in this case, using the class name.
+
+------------------------------------------------------------
+Constructor Intializes the Data members of the class or newly created object.  A constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
+Various Type of Constructors:- 
+
+Default constructor: The default constructor is the constructor which doesn’t take any argument. It has no parameters.
+
+Parameterized constructor: The constructors that take some arguments are known as parameterized constructors.
+
+Copy constructor: A copy constructor is a member function that initializes an object using another object of the same class.
+
+
+Copy Constructor is a type of constructor, whose purpose is to copy an object to another. What it means is that a copy constructor will clone an object and its values, into another object, is provided that both the objects are of the same class.
+
+ The structure is saved in the stack memory, whereas the class is saved in the heap memory. Also, Data Abstraction cannot be achieved with the help of structure, but with class, Abstraction is majorly used.
+
+
+Are there any limitations of Inheritance?
+
+Yes, with more powers comes more complications. Inheritance is a very powerful feature in OOPs, but it has some limitations too. Inheritance needs more time to process, as it needs to navigate through multiple classes for its implementation. Also, the classes involved in Inheritance - the base class and the child class, are very tightly coupled together. So if one needs to make some changes, they might need to do nested changes in both classes. Inheritance might be complex for implementation, as well. So if not correctly implemented, this might lead to unexpected errors or incorrect outputs.
+
+
+    Single inheritance
+    Multiple inheritances
+    Multi-level inheritance
+    Hierarchical inheritance
+    Hybrid inheritance
+   ---------------------------------------------------------
+   Difference btwn C and C++
+   --------------------------------------------------------
+   -> C++ supports both the function and operator overloading
+   In C function cannot be implemented inside the structures whereas in C++ function can be implemented inside the structures.
+
+   -> C doesn't support reference variables
+
+   -> C doesn't supports virtual and friend functions
+
+   --------------------------------------------------------
+   Difference between  Reference and Pointers
+   --------------------------------------------------------
+   -> Pointer requires and indirection to access the value of a variable, reference variable does not require any indirection.
+
+   -> Reference behaves like an alias for an exisiting variable i.e. it is a temp variable. Pointer stores the address.
+
+   ->Reference variable cannot be reassigned with different address values.
+
+   -> Pointer variable is an independent variable means that it can be reassigned to a different objects.
+
+   -> A null value cannot be assigned to the reference variable.
+
+   -> A null value can be assigned to the reference variable.
+
+   -> It is necessary to initialize a reference variable at the time of declaration.
+
+   -> It is not necessary to initialize the variable to the time fo declaration.
+   --------------------------------------------------------
+
+   CLASS:-
+   --------------------------------------------------------
+
+   -> Defines the type of definition of the category of things.
+
+   -> Accesss Modifiers :- private, public and protected.
+   ->Class defines the type definition of the category of things. It defines a datatype,  but it does not define the data it just specifies the structure of data.
+
+   ------------------------------------------------------------------------------------------------------------------------
+   Namespace :-
+   ------------------------------------------------------------------------------------------------------------------------
+   
+   Friend Function/ Class :- It is not a bidirectional relation. 
+   ---------------------------------------------------------------------
+   Friend Class A friend class can access private and protected members of other class in which it is declared as friend. It is sometimes useful to allow a particular class to access private members of other class. For example, a LinkedList class may be allowed to access private members of Node. 
+
+   Friend Function Like friend class, a friend function can be given a special grant to access private and protected members. A friend function can be: 
+
+a) A member of another class 
+b) A global function 
+ 
+
+1) Friends should be used only for limited purpose. too many functions or external classes are declared as friends of a class with protected or private data, it lessens the value of encapsulation of separate classes in object-oriented programming.
+2) Friendship is not mutual. If class A is a friend of B, then B doesn’t become a friend of A automatically.
+3) Friendship is not inherited (See this for more details)
+4) The concept of friends is not there in Java. 
+
+
+Virtual Functions
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+A virtual function is a member function which is declared within a base class and is re-defined(Overridden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the function. 
+
+    Virtual functions ensure that the correct function is called for an object, regardless of the type of reference (or pointer) used for function call.
+    They are mainly used to achieve Runtime polymorphism
+    Functions are declared with a virtual keyword in base class.
+    The resolving of function call is done at Run-time
+
+
+
+    Virtual functions cannot be static.
+    A virtual function can be a friend function of another class.
+    Virtual functions should be accessed using pointer or reference of base class type to achieve run time polymorphism.
+    The prototype of virtual functions should be the same in the base as well as derived class.
+    They are always defined in the base class and overridden in a derived class. It is not mandatory for the derived class to override (or re-define the virtual function), in that case, the base class version of the function is used.
+    A class may have virtual destructor but it cannot have a virtual constructor.
+
+NOTE: If we have created a virtual function in the base class and it is being overridden in the derived class then we don’t need virtual keyword in the derived class, functions are automatically considered as virtual functions in the derived class.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+ When should we use multiple inheritance?
+
+You can answer this question in three manners:
+
+    Never
+    Rarely
+    If you find that the problem domain cannot be accurately modeled any other way.
+
+----------------------------------------------------------------------------------------------------------------------------
+Overloading :-  Function and Operator
+--------------------------------------------------------------------------------------------------------------------------- 
+--> 1. Operator overloading: Operator overloading is a compile-time polymorphism in which a standard operator is overloaded to provide a user-defined definition to it. For example, '+' operator is overloaded to perform the addition operation on data types such as int, float, etc.
+
+Operator overloading can be implemented in the following functions:
+
+    Member function
+    Non-member function
+    Friend function
+
+------------------------------------------
+Virtual Inheritance 
+-----------------------------------------------------
+Virtual inheritance is a C++ technique that ensures that only one copy of a base class’s member variables are inherited by second-level derivatives (a.k.a. grandchild derived classes). Without virtual inheritance, if two classes B and C inherit from class A, and class D inherits from both B and C, then D will contain two copies of A’s member variables: one via B, and one via C. These will be accessible independently, using scope resolution.
+
+Instead, if classes B and C inherit virtually from class A, then objects of class D will contain only one set of the member variables from class A.
+
+As you probably guessed, this technique is useful when you have to deal with multiple inheritance and it’s a way to solve the infamous diamond inheritance.
+
+Should we always use virtual inheritance? If yes, why? If not, why not?
+
+The answer is definitely no.
+
+Virtual inheritance causes troubles with object initialization and copying. Since it is the “most derived” class that is responsible for these operations, it has to be familiar with all the intimate details of the structure of base classes.
+
+Due to this, a more complex dependency appears between the classes, which complicates the project structure and forces you to make some additional revisions in all those classes during refactoring. All this leads to new bugs and makes the code less readable and thus less maintainable.
+
+------------------------------------------------------------------------------------------------------------------------
+Pure Virtual Function
+-------------------------------------------------------------------------------------------------------------------------
+What is a pure virtual function?
+
+The pure virtual function is a virtual function which does not contain any definition. The normal function is preceded with a keyword virtual. The pure virtual function ends with 0.
+
+Syntax of a pure virtual function:
+
+    virtual void abc()=0;   //pure virtual function.  
+--------------------------------------------------------------------------------------------------------------------------
+What is a class template?
+
+A class template is used to create a family of classes and functions. For example, we can create a template of an array class which will enable us to create an array of various types such as int, float, char, etc. Similarly, we can create a template for a function, suppose we have a function add(), then we can create multiple versions of add().
+-----------------------------------------------------------------------------------------------------------------------------
+Virtual Destructor
+
+A virtual destructor in C++ is used in the base class so that the derived class object can also be destroyed. A virtual destructor is declared by using the ~ tilde operator and then virtual keyword before the constructor.
+Note: Constructor cannot be virtual, but destructor can be virtual.
+
+When we use the virtual destructor, then the derived class destructor is called first, and then the base class destructor is called.
+-------------------------------------------------------------------------------------------------------------------------------
+
+What are Manipulators?
+
+Manipulators are the functions which can be used in conjunction with the insertion (<<) and extraction (>>) operators on an object. Examples are endl and setw.
