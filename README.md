@@ -63,4 +63,4 @@ Huge thanks to every student, community, mentor, and original creator who shares
 
 ---
 
-Good luck on your offer quest. May your code compile, your Wi-Fi behave, and your interviewer say "great question." 🚀
+Good luck on your offer quest. May your code compile, your Wi-Fi behave, and your interviewer say "great question." 
