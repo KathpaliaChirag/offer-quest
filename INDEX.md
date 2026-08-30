@@ -30,6 +30,8 @@ The [additional resources page](<Additional Resources/README.md>) keeps the orig
 
 Use those links as the first stop for coverage gaps. They are deliberately separated from the local archive so attribution, licensing, and update history stay clear.
 
+The same page now includes a deep-research pass of PDF indexes, company-wise question dashboards, live practice sites, and public Google Drive collections. Research checkpoint: 31 August 2026.
+
 ## How to add an entry
 
 1. Put company-specific material in the matching root-level company folder. Put general material in `Other Resources`.
