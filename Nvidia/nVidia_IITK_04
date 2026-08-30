@@ -1,0 +1,114 @@
+Hi guys this is nVIDIA paper 
+nVIDIA is a Graphics solutions ( HARDWARE ) provider and it also does 
+Chipsets and chips for handheld devices for media processing.
+It has started a new design centre in Bangalore this year.
+ 
+ 
+
+This is the paper of written test conducted by "nVIDIA" at IIT Kharagpur on AUG 10th 2004.
+
+Total 10 Qs ( 1st aptitude and remaining technical )
+
+Questions carry variable marks. I could not remember the weightage .
+
+Duration: 1 Hr.
+
+1. Question on clocks ---see R.S.Aggarwal ( 3m ) 
+
+Between 4:00 pm and 5:00 pm at what time will the hours and minutes hand be 10 degrees apart for the first time.......????
+My Answer : 4:20 pm
+
+2.a)Data compression is used for information storage and transmission .  
+
+you are to use encryption along with data compression. What will u do 
+
+i)Data compression first and then encrypt the compressed data 
+
+OR
+
+ii)encrypt the data and then compress the encrypted data 
+
+Justify ur answer.
+My Answer:(i)
+    Data compression removes redundant character strings in a file. This means that the compressed file has a more uniform distribution of characters. In addition to providing shorter plaintext and ciphertext, which reduces the amount of time needed to encrypt, decrypt and transmit a file, the reduced redundancy in the plaintext can potentially hinder certain cryptanalytic attacks.
+
+    By contrast, compressing a file after encryption is inefficient. The ciphertext produced by a good encryption algorithm should have an almost statistically uniform distribution of characters. As a consequence, a compression algorithm should be unable to find redundant patterns in such text and there will be little, if any, data compression. In fact, if a data compression algorithm is able to significantly compress encrypted text, then this indicates a high level of redundancy in the ciphertext which, in turn, is evidence of poor encryption.
+
+
+
+b)Give Binary representation of -125.375 in fixed point 2C notation with 3 bits for fractional part and 8 bits for integer part.   (4m)
+My Answer: 101111101.011
+
+3.Given a 4 bit binary number <b3 b2 b1 b0> design a circuit that gives square of the number
+My Answer:
+8-bit Output: <c7 c6 c5 c4 c3 c2 c1 c0>
+Trivial c0(LSB) = b0(LSB)
+        c1 = 0
+	c2 = b1.~b0 
+        c7(MSB) =b3.b2
+For finding others, you have to use k-map or boolean equations.
+
+4.Given a 7 bit binary number design a circuit to find the number of 1s (Binary digit 1s) in the number using only Half Adders and Full Adders.
+My Answer:
+
+    FA-1(a0-a2)  FA-3(FA-1/sum, FA-2/sum, a6)-----sum(LSB)    
+
+    FA-2(a3-a5)  FA-4(FA-1/carry, FA-2/carry, FA-3/carry)-----sum,carry(MSB)
+
+              
+
+5.write a C functon IsLittleEndian() to return true if the machine stores LSB of a Multibyte number in Highest Address and false if it is the other way ( Iam not sure whether it is LSB in Highet addr or MSB in highest Address ,check what is LittleEndian and BigEndian ).
+My Answer:-
+bool IsLittleEndian(int, int*)
+IsLittleEndian(int Multibyte_Number, int *address)
+{
+	LSB=Multibyte_Number%100;
+	if(LSB==*address)
+		return true;
+	else
+		return false;
+}
+
+6.A question on FSM ( lengthy Question 8 lines ) I don't remember it .
+
+7.A question on FF timing 
+
+Two FFs with combo logic blocks in B/w FF1 and FF2 with different delays and combo block b/w o/p of 2nd FF and i/p of 1st FF (feedback).
+
+setup time ,hold time clock-to-Q delay were given 
+
+a)with a SKEW of "DELTA" what will be the 
+
+maximum clock frequency ( numerical values were given ).
+
+b)for a hold time of "HOLD" ns what will be the maximum SKEW allowed????
+
+
+
+8.A question on FSM design ( it's a ARBITER problem Problem statement was given along with waveforms describing the function ) You are required to draw the FSM showing expressions for state changes and output.
+
+9.a) A binary number is enormously large, so it is divided by a fixed number and the remainder is used.What is this called and why it is called so????
+
+b)Give two advantages and one disadvantege of Latch based designs over register based designs.
+
+10.This is a Q from Low power design ( circuits )
+
+The technology used for a design is changed from 0.13 Um to 0.09 Um and VDD from 1.2v to 1.0 v. 
+
+If Area of a chip is 81mm2 and Power consumed is 1w and maximum frequency is 500 MHz,in the earlier 0.13 Um technology, what will be the Power consumed in the new Technology of 0.09Um and Vdd of 1.0v? what will be the area of the chip? What will be the maximum frequency if the Power consumed is kept same ??? 
+let 0.13um, W=x L=y
+then 0.09um W=0.7x L=0.7y
+            Area reduction 0.7*0.7=0.5(50%)
+	    Capacitance eps*Area/t(oxide)= 0.7
+	    Time delay d = CV/I
+                       I =0.5*uCox(W/L)*(Vg-Vt)^2
+		       if V is decreased by 0.7 then delay=0.7
+            Dynamic power= C*V^2*f			    
+ 
+
+Out of 50 members ( attended written test) 8 were shortlisted for interview and 5 were selected for the job.
+
+Interview was cool. 
+
+Basics of comp Architecture (those who said that they have learnt Compu arch were asked Qs on Compu arch ) , CMOS circuits ( transistor realization of Boolean functions), concepts of Pipelining, RC delay calculation, VERILOG ( simple no need to panic , just want to know whether you know verilog or not.
+

@@ -1,0 +1,4 @@
+
+IITR Nvidia
+Almost all questions were same as IITD and kgp
+Coding questions - two sum, equal number of zeroes and ones in binary representation of a number, little endian to big endian

@@ -1,0 +1,148 @@
+hi Iam SAI KISHORE SENDING NVIDIA,PUNE Paper conducted in IIT Kanpur-2006..
+There are four sections DSP,C,PROBABLITY AND STATISTICS and OPERATING SYSTEM...each section have 10 questions..
+here iam sending the some of the questions ...
+in DSP..
+1)Given the two sequences x(n)={-1,0,1,2},h(n)={1,1,2,2} asked to find the convolution  y(n)=x(n)*h(n)
+
+2)given mean of the x(n) is zero then variance of x(n) proportional to a)+ve amplitude b)-ve amplitude
+c)power d)noneANS:C
+
+3)four sequences given asked to find the which of them are stable
+1)y(n)=a*x(n)+b;2)y(n)=a*(x(n)*x(n))
+3)y(n)=a*exp(x(n));4)i did not remember
+ANS:2&3 are stable..
+
+4)convolution for a stable ,one sided sequence
+will satisfy which of the following properties
+a)commutative b)associative c)distributive
+d)all the above
+ANS:D
+
+5.which of the folloeing are true
+a) sum of two continuous periodic siganls always periodic 
+b)sum of two dsicrete periodic siganls always periodic 
+c)sum of two continuous periodic siganls always not periodic 
+d)sum of two discrete periodic siganls always not periodic 
+ans:b&c
+
+6.if the signal max freq fs tehn what is the nyquist rate??
+ans:2fs
+
+IN Probablity
+
+1)given p.d.f.fx(X) and Y=A(X*X)+B asked to find 
+pd.f. of fy(Y)
+ans: fy(Y)=fx(x)/(dY/dX) by using above formula u can calculate
+
+2.if the poission random varaible mean is & then asked to find the ratio of mean/variance
+ANS:1
+
+3.given probablity distribution i.e. uniform distribution 0<=x<=2 find P(X=1)??
+ans: 0 (continuous case)
+
+4.gaussian uncorrelated random variables are independent ?? TRUE/FALSE
+ans: TRUE
+
+5. U ncorrelated random varibles are independent always?? TRUE/FALSE
+ans:FALSE
+
+6.For a singualrity martix one of the eigen value must be zero?? TRUE/FALSE
+
+ans:TRUE
+
+IN OS
+
+1) what is a dirty page??
+
+2)what is the condition for deadlock to occur??
+
+3)given 5 jobs with time required to do the job..
+and asked to find throughput,meantime??
+
+4) remaining OS question i did not reemmber 
+basically i dont know OS much...
+
+IN  C
+
+1)main()
+{
+printf("ab");
+printf("\bsi");
+printf("\rha");
+}
+output of the program
+a)absi b)absi ha c)hai d)none
+ans:C
+
+2)char s[]={'a','b','\n','c','\0'};
+char *s1;
+s1=&s[2];
+printf("%d",*s1+1 +('a'-32)+1);
+ANS: 77 ...QUESTION ABOVE IS EXACTLY NOT SAME ...BUT U NEED TO KNOW ASCII VALUE OF \n is 10 ...nothing required other than this
+
+3.main()
+{
+int n=1;
+if (n==1)
+jump hello;
+fun();
+}
+fun()
+{
+printf("%d",n);
+}
+a)1 b) 0 c)compilation error d) runtime eror
+ans:c
+
+4)
+#define clscr() 100
+main()
+{
+clrscr();
+printf("%d",clrscr());
+}
+a)100 b)clrscr() c)clrscr d)compiler error
+ans:a
+
+remaing question on C pointers ....
+
+regarding I nterview..they are conecentrating on DSP and I mage processign and if u any subjectes taken related to signal processign field those..
+for me they asked wavelts for siganl processing
+interview is 1 hour both HR and technical
+interview questions..
+1)why we need fourier transform??
+
+2)how u will add two signal s which have same frequency but different phase??
+
+3)what is the need of waveelt transforms??
+
+4)what is the shorttime fourier transform??
+
+5)what is -ve frequency??
+
+6)he taken sine wave and sampled exactly at nyquist rate...which sine wave period is T ..THEN samples came such that at 0,T/2,3T/2,T....all those sampels are zero.. even though we are using nyquist rate why we are not reconstructing the sampels?/
+ans:It is always not possible to reconstruct exctly at nyqusist rate
+
+7)what is the relation between autocorrelation and crosscorrelation??
+
+8.waht are the stationarity signals and non-stationarity signals??
+
+9.how float value will represent in binay representation...
+
+10.what is static ,global??
+
+11.two puzzles questions whcich are very easy..
+find the oddball given 8 balls in which one ball weight is more than otehrs...need to use weighing machine twice only?? ans:3 3 2
+
+12.given 32 bit representaion ..u need to exchange the first 16 bits with last 16 bits??
+
+13. waht is double and flaot??
+
+14.regarding my thesis he asekd sme more questions..
+HR is very cool...
+finally i got selected in NVIDIA ,PUNE
+
+all the best....
+byeee
+saikishore
+kishor_434@yahoo.com

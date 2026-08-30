@@ -1,0 +1,53 @@
+(1-6 are multiple choice questions)
+
+1. The max. value and min. value of 16-bit 2's complement (hex, dec, binary)?
+2. The max.,min. value of 16-bit 1's complement (hex, dec, binary)?
+3. max. no. of logic functions for n-variables? ans: 2^2^n
+4. about physical and virtual address, which is greater? 
+5. TLB (Translation Lookahead Buffer) is used for ?
+   options:
+   1. L1 cache misses 
+   2. L2 cache miss 
+   3. some thing page miss (not remembered exactly)
+
+6. Minimum no. of P and N Mos transistors required to implement The logic
+   Function Y= !(A | B & C) using CMOS 
+   1. 1 p & 3 n
+   2. 3 p & 1 n
+   3. 3 p & 3 n
+
+
+
+7.One shot digital circuit (see attach pdf)
+
+8.Noise eliminator (both -ve and +ve pulses of one clock cycle duration)
+      __    __    __    __    __    __    __    __    __
+   __|  |__|  |__|  |__|  |__|  |__|  |__|  |__|  |__|  |  --> Clock
+            __ __             __ __ __ __       _________  --> Input
+   ________|     |___________|           |_____|  
+                                    __ __ __ ____________  --> Output
+   ________________________________|             
+
+  Observe the one clock delay in output.
+
+  Design a state machine for this operation.
+
+9. Implement the following 2 functions using only 2x1 MUX without gates.
+   U can use 1 or 0 for inputs.
+
+   a) Y = AB+not(C)      b) Y = A xor B
+
+10. Write a program in C or C++ to implement Stack and its functions such as
+   isEmpty, isFull, Push, Pop, Init etc. (I think based on the question given, 
+   array implementation is sufficient)
+
+11. Question on clock frequency required for given Sequential ckt. (see attach pdf) 
+
+     Given 2 F/Fs, 3 delays ( 2 delays for clock dly1, dly2 and 1 delay dly3 of 
+      combinational circuit )  given setup, hold and propagation times
+
+    Ans: T+(dly2-dly1) >= Tpd + dly3 + Tsetup
+         Tpd + dly3 > Thold + (dly2-dly1)
+
+
+

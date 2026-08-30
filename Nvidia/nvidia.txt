@@ -1,0 +1,3 @@
+Nvidia: both ques repeated
+1.  https://leetcode.com/problems/last-stone-weight/
+2. regex for checking if number is in power of two if converted to decimal, number was given as a string in binary form

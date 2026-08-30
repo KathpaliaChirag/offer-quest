@@ -1,0 +1,5 @@
+1. A binary number is enormously large, so it is divided by a fixed number and the remainder is used. What is this called and why it is called so??
+
+2. Give two advantages and one disadvantage of Latch based designs over register based designs.
+
+3. TLB are used for L1 or L2 or Page Tables?
