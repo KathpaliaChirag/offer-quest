@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/maximum-size-of-square-such-that-all-submatrices-of-that-size-have-sum-less-than-k/
