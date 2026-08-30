@@ -16,6 +16,19 @@ We are here for the OAs, the coding rounds, the interview stories, and the small
 | Everything in one place | [INDEX.md](INDEX.md) | The living catalogue for this repository |
 | Want to contribute? | [CONTRIBUTING.md](CONTRIBUTING.md) | The no-stress guide to adding useful material |
 
+## The 15-minute route 🚀
+
+1. Pick a company folder from [INDEX.md](INDEX.md).
+2. Skim the question names before opening every file. Search beats doom-scrolling.
+3. Do two or three timed questions, then review the misses without roasting yourself.
+4. Use [Additional Resources](<Additional Resources/README.md>) when this archive does not have that company's material.
+
+Quick local search, if you have a terminal:
+
+```bash
+rg -n -i "array|graph|sql|os|dbms|aptitude|interview" "Amazon" "Other Resources"
+```
+
 ## The OA survival manual ⏱️
 
 An OA is not a morality test. It is usually a timed screening round with coding problems, MCQs, debugging, or work-style questions. It can be tough, random, and occasionally written like the problem setter had a personal feud with readable English.
@@ -49,6 +62,10 @@ This is now a real library, not just a pretty empty shelf. The first community a
 | Credits and sources | Forever open 🫶 | Proper credit for people who made this useful |
 
 Four files with Windows-incompatible path lengths are parked locally in [`problem files`](problem%20files/RECOVERY-MAP.md). Their exact original paths and replacement steps are recorded there; the files were not deleted or pushed.
+
+## The source promise 🤝
+
+This repository is a signpost as much as it is an archive. Local files should be public and shareable. External material stays linked to its original home when redistribution rights are unclear. If a source asks for removal, we will take it seriously and update the index.
 
 ## Good places to explore 🔎
 

@@ -28,6 +28,8 @@ The additional page links useful public company coverage that is not currently d
 
 The [additional resources page](<Additional Resources/README.md>) keeps the original links and credits visible. It includes the public `Placement_FAQs_2025.pdf` link from `rameshgitter/OA-Questions`, plus curated placement guides and company-wise question repositories.
 
+Use those links as the first stop for coverage gaps. They are deliberately separated from the local archive so attribution, licensing, and update history stay clear.
+
 ## How to add an entry
 
 1. Put company-specific material in the matching root-level company folder. Put general material in `Other Resources`.
