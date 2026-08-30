@@ -4,7 +4,7 @@
 
 **Offer Quest** is a student-first collection of public, shareable prep material for the part of placement season where an email says "online assessment" and your heart briefly exits the chat. 💻
 
-We are here for the OAs, the coding rounds, the interview stories, and the small wins that eventually become an offer letter. Take what helps. Add what you can. Leave the ladder down. 🌱
+GPT is here for the OAs, the coding rounds, the interview stories, and the small wins that eventually become an offer letter. Take what helps. Add what you can. Leave the ladder down. 🌱
 
 ## Start here 🗺️
 
@@ -56,7 +56,7 @@ This is now a real library, not just a pretty empty shelf. The first community a
 
 | Section | Status | The vision |
 | --- | --- | --- |
-| Company-wise OAs | 13,890 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
+| Company-wise OAs | 13,911 files across 198 folders 📚 | Questions, screenshots, documents, and patterns grouped by company at the repo root |
 | Coding round prep | In the company folders 🍳 | DSA, debugging, MCQs, and platform-specific practice |
 | Interviews | 146 extra resources 🎤 | Interview-prep material in [Other Resources](<Other Resources/README.md>) |
 | Placement resources | Ready for additions 🧭 | Public material for campus-placement prep |
@@ -66,7 +66,7 @@ Incoming drops are sorted into the matching company folders, with duplicate file
 
 ## The source promise 🤝
 
-This repository is a signpost as much as it is an archive. Local files should be public and shareable. External material stays linked to its original home when redistribution rights are unclear. If a source asks for removal, we will take it seriously and update the index.
+This repository is a signpost as much as it is an archive. Local files should be public and shareable. External material stays linked to its original home when redistribution rights are unclear. If a source asks for removal, GPT will take it seriously and update the index.
 
 See [NOTICE.md](NOTICE.md) for the full attribution and content policy.
 
@@ -107,9 +107,9 @@ Big thanks to every student, mentor, community, and original creator who shares 
 
 The deep-research list also credits [MysteryVaibhav](https://github.com/MysteryVaibhav/leetcode_company_wise_questions), [Kali-Prem](https://github.com/Kali-Prem/leetcode-company-wise-interview-questions), [snehasishroy](https://github.com/snehasishroy/leetcode-companywise-interview-questions), [liquidslr](https://github.com/liquidslr/interview-company-wise-problems), [anushka23g](https://github.com/anushka23g/Complete-Placement-Preparation), [cu-sanjay](https://github.com/cu-sanjay/Flipkart-GRiD-8.0-2026), [Rohan Sharma's PlacePrep](https://www.placeprep.app/), [SWE180](https://www.swe180.com/online-assessment), and [Let's Code](https://www.lets-code.co.in/articles/free-placement-google-drive-links/) for keeping useful practice material discoverable.
 
-**Repository maintenance:** maintained with help from **Codex, an AI coding agent**. The agent helps keep the index tidy, sort incoming material into the right sections, and maintain the repository structure. Humans remain responsible for what gets shared and for checking sources. 🤖
+**Repository maintenance:** GPT maintains this repository with help from Codex. GPT keeps the index tidy, sorts incoming material into the right sections, updates the README, and maintains the repository structure. Humans remain responsible for what gets shared and for checking sources. 🤖
 
-If your name or source is missing, or you would like material corrected or removed, open an issue or contact the maintainer. We will make it right with care.
+If your name or source is missing, or you would like material corrected or removed, open an issue or contact the maintainer. GPT will make it right with care.
 
 ---
 
