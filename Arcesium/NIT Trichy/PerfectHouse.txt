@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+    
+    int n; 
+    cin>>n;
+    
+    vector<int> dis(n);
+    int sum=0;
+    for(int i=0; i<n; i++){
+        cin>>dis[i];
+        sum += dis[i];
+    }
+    int sam = dis[0];
+    
+    //sort the array 
+    sort(dis.begin(), dis.end());
+    
+    int MIN = INT_MAX;
+    int nearest;
+    
+    for(int i=0; i<n; i++){
+        sum -= dis[i]*2;
+        int avg = dis[i]*(2*i+2-n) + sum;
+        if(avg < MIN){
+            MIN = avg;
+            nearest = dis[i];
+        }
+        else if(avg == MIN){
+            int difOld= abs(nearest-sam);
+            int difNew= abs(dis[i]-sam);
+            
+            if(difOld > difNew)
+                nearest = dis[i];
+        }
+    }
+    
+    cout<<nearest;
+    
+    
+    return 0;
+    
+}

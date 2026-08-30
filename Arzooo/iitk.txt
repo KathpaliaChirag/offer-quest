@@ -1,0 +1,4 @@
+Arzoo 
+1 hour time 
+1 easy sql question(10 marks)
+2 coding (20+50 marks) - everyone got different questions(segment tree, trie also), totally based on luck.

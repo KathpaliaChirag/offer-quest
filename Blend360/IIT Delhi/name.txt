@@ -1,0 +1,1 @@
+SELECT count(*) FROM t_xpjxl56gj807tn3 WHERE Firstname like "%e%" and LENGTH(LastName)>5

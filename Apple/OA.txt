@@ -1,0 +1,8 @@
+Apple's today OA for SDET role -
+
+2 implementation problem
+
+1) variation in balanced parenthesis
+2) variation in LIS n^2
+
+9 mcqs based on testing. It is role dependent
